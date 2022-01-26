@@ -122,7 +122,7 @@ VoiceI = \relative {
   re-5( do sib la sol fa-3
   sib-5 dod,-2 re-1 mi fa sol-1
   la-2 re fa,8-1 mi16-3 re-2\staccato)
-  re4.\fermata
+  re4.-1\fermata
 
 }
 
@@ -131,83 +131,82 @@ BassoI = \relative {
   %bar 1 - 4
   r4.
   r4.
-  re16( mi fa sol la sib
-  dod, sib' la sol fa mi
+  re16-5( mi fa sol la sib-2
+  dod,-5 sib'-2 la-1 sol fa mi
   
   %bar 5 - 8
-  fa8\staccato) la\staccato re\staccato
-  mi,\staccato sol\staccato dod\staccato
-  re,\staccato re'\staccato fa,\staccato
-  sol\staccato la\staccato sib\staccato
+  fa8-3\staccato) la\staccato re\staccato
+  mi,-4\staccato sol\staccato dod\staccato
+  re,\staccato re'\staccato fa,-4\staccato
+  sol\staccato la\staccato sib-1\staccato
 
   %bar 9 - 12
-  do,\staccato do'\staccato mi,\staccato
+  do,\staccato do'\staccato mi,-4\staccato
   fa\staccato sol\staccato la\staccato
-  sib16( sol la sib do re
-  mi, re' do sib la sol)
+  sib16-3( sol-5 la sib do re
+  mi, re' do sib la-1 sol-4)
 
   %bar 13 - 16
-  la( fa sol la sib do
-  re do sib la sol fa)
-  mi( do re mi fa sol
-  la, sol' fa mi re do
+  la-3( fa-5 sol la sib do
+  re, do' sib la sol-1 fa)
+  mi-3( do-5 re mi fa sol
+  la, sol' fa mi re-1 do-3
 
   %bar 17 - 20
-  re sib do8\staccato) do,\staccato
-  fa16( sol la sib do re
-  mi, re' do sib la sol)
-  la( sib do re mi fa
+  re-2 sib-4 do8-1\staccato) do,\staccato
+  fa16-3( sol la sib-3 do re
+  mi, re' do sib la sol-5)
+  la-4( sib do re mi-2 fa-1
   
   %bar 21 - 24
-  sol, fa' mi re do sib)
-  la( sib do la sib do
+  sol, fa' mi re-3 do-1 sib)
+  la-3( sib do la sib do
   fad,8) r8 r8
-  sol16( la sib sol la sib
+  sol16-4( la sib sol la sib
 
   %bar 25 - 28
   mi,8\staccato) r8 r8
-  fa\staccato fa'\staccato re\staccato
-  si\staccato sold\staccato mi\staccato
-  la16( sold la si do re
+  fa\staccato fa'\staccato re-2\staccato
+  si-1\staccato sold-3\staccato mi\staccato
+  la16-1( sold-4 la si-2 do-1 re-4
 
   %bar 29 - 32
-  mi4.~)\prall
+  mi4.~-3)\prall
   mi4.~
   mi4.~
   mi4.~
 
   %bar 33 - 36
   mi4.~
-  mi8 mi'\staccato re\staccato
-  do\staccato si\staccato la\staccato
-  re\staccato mi\staccato fa\staccato
+  mi8 mi'-1\staccato re\staccato
+  do-3\staccato si\staccato la-5\staccato
+  re-3\staccato mi\staccato fa\staccato
 
   %bar 37 - 40
-  re( mi\staccato) mi,\staccato
-  la16\staccato la,( sib do re mib
-  fad, mib' re do si la
-  sol8.) sol16( la sib
+  re( mi-1\staccato) mi,\staccato
+  la16-1\staccato la,-5( sib do re-2 mib-1
+  fad,-5 mib'-2 re-1 do si la
+  sol8.) sol16-3( la sib
 
   %bar 41 - 44
-  mi,8\staccato) sol\staccato do\staccato
-  fa16( sol la si dod re
-  mi, re' dod si la sol
-  fa8\staccato) la\staccato re\staccato
+  do,8\staccato) sol'-2\staccato do-1\staccato
+  fa16-3( sol la si-3 dod re
+  mi,-5 re'-1 dod si-1 la sol
+  fa8-4\staccato) la\staccato re\staccato
 
   %bar 45 - 48
-  mi,\staccato sol\staccato dod\staccato
-  re,16( mi fa sol la sib
-  dod sib la sol fa mi
+  mi,-5\staccato sol\staccato dod\staccato
+  re,16-5( mi fa sol la sib
+  dod sib la-1 sol fa mi
   fa sol la8\staccato) la,\staccato
 
   %bar 49 - 52
-  sib8.( do16 sib la
-  sol sib' la sol fa mi
-  fa sol la8\staccato) la,\staccato
-  re,4.\fermata
+  sib8.-3( do16 sib la
+  sol sib'-1 la-1 sol fa mi
+  fa sol la8\staccato) la,-2\staccato
+  re,4.-5\fermata
 
 }
-
 
 %*****************************************
 %  Start Score
