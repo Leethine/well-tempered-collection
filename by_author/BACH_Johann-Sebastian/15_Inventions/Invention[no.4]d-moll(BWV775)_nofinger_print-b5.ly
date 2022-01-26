@@ -189,7 +189,7 @@ BassoI = \relative {
   sol8.) sol16( la sib
 
   %bar 41 - 44
-  mi,8\staccato) sol\staccato do\staccato
+  do,8\staccato) sol'\staccato do\staccato
   fa16( sol la si dod re
   mi, re' dod si la sol
   fa8\staccato) la\staccato re\staccato
