@@ -148,7 +148,7 @@ BassoI = \relative {
 
   %bar 13 - 16
   la( fa sol la sib do
-  re do sib la sol fa)
+  re, do' sib la sol fa)
   mi( do re mi fa sol
   la, sol' fa mi re do
 
