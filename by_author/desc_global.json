@@ -1,0 +1,34 @@
+[
+{
+  "Composer": "Robert Schumann",
+  "Directory": "SCHUMANN_Robert",
+  "Birthyear": "",
+  "Deathyear": "",
+  "Style": ["",""],
+  "Nation": ""
+},
+{
+  "Composer": "Johannes Brahms",
+  "Directory": "BRAHMES_Johannes",
+  "Birthyear": "",
+  "Deathyear": "",
+  "Style": ["",""],
+  "Nation": ""
+},
+{
+  "Composer": "Johann Sebastian Bach",
+  "Directory": "BACH_Johann-Sebastian",
+  "Birthyear": "",
+  "Deathyear": "",
+  "Style": ["",""],
+  "Nation": ""
+},
+{
+  "Composer": "George Frideric Handel",
+  "Directory": "HANDEL_George-Friederic",
+  "Birthyear": "",
+  "Deathyear": "",
+  "Style": ["",""],
+  "Nation": ""
+}
+]
