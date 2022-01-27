@@ -13,7 +13,7 @@
   % Set paper
   #(set-paper-size "b5")
   indent = 0\mm
-  line-width = 14.5\cm
+  line-width = 14.6\cm
   ragged-right = ##f
   line-width = #(- line-width (* mm 3.000000) (* mm 1))
 }
@@ -46,22 +46,76 @@ MyKey = \key do \major
 PieceName = "Melodie"
 
 VoiceI = \relative {
-  %bar 1 - 4
+  %melody 4 bars
   mi''4( re do si
   la8 do si re do4 sol)
   sol'( fa mi do
   si <la fad> sol) r
-  %\bar ":|.:"  
+
   \bar ":|."
+  
+  %var: bar 1 - 4
+  re'( do si) r
+  fa'( mi re) r
+  la'( sol fa mi
+  re8 fa mi sol)
+  << { \voiceOne fa4. }
+    \new Voice { \voiceTwo la,8 do si re }
+  >>
+  
+  %var: bar 5 - 8
+  { \stemDown <mi do>4( re do si }
+  la8 do si re do4 { \stemUp sol) }
+  { \stemDown la'( sol <fa si,> <mi do> }
+  re8 fa si, re do4) r
+    
+  %var: bar 9 - 12
+  re( do si) r
+  fa'( mi re) r
+  la'( sol fa mi
+  re8 fa mi sol)
+  << { \voiceOne fa4. }
+    \new Voice { \voiceTwo la,8 do si re }
+  >>
+  
+  %var: bar 13 - 16
+  { \stemDown <mi do>4( re do si }
+  la8 do si re do4 { \stemUp sol) }
+  { \stemDown la'( sol <fa si,> <mi do> }
+  re8 fa si, re do4) r
 }
 
 
 BassoI = \relative {
-  %bar 1 - 4
-  do'8( sol' fa sol mi sol do, mi
-  fa re sol fa mi fa mi re)
+  %melody 4 bars
+  do'8( sol' fa sol mi sol do, mi)
+  fa( re sol fa mi fa mi re)
   mi( sol re sol do, sol' mi sol
   re sol do, re si re sol,4)
+  
+  %var: bar 1 - 4
+  fa'8( sol mi sol re sol fad sol)
+  re( sol do, sol' si, sol' fad sol)
+  fa( sol mi sol re sol do, sol'
+  si, sol' do, dod re4 sol)
+  
+  %var: bar 5 - 8
+  do,8( sol' fa sol mi sol do, mi
+  fa re sol fa mi fa mi do)
+  fa( do' mi, do' re, sol do, sol'
+  fa la sol fa mi sol do, mi)
+  
+  %var: bar 9 - 12
+  fa( sol mi sol re sol fad sol)
+  re( sol do, sol' si, sol' fad sol)
+  fa( sol mi sol re sol do, sol'
+  si, sol' do, dod re4 sol)
+  
+  %var: bar 13 - 16
+  do,8( sol' fa sol mi sol do, mi
+  fa re sol fa mi fa mi do)
+  fa( do' mi, do' re, sol do, sol'
+  fa la sol fa mi sol do,4)
 }
 
 
