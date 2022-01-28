@@ -1,34 +1,42 @@
 [
 {
-  "Composer": "Robert Schumann",
+  "ComposerID": "rschumann",
+  "Fullname": "Robert Schumann",
   "Directory": "SCHUMANN_Robert",
-  "Birthyear": "",
-  "Deathyear": "",
-  "Style": ["",""],
-  "Nation": ""
+  "Birthyear": "1810",
+  "Deathyear": "1856",
+  "Photo": "Robert_Schumann_1839.jpg",
+  "Style": ["Romantic"],
+  "Nation": ["Germanic"]
 },
 {
-  "Composer": "Johannes Brahms",
+  "ComposerID": "jbrahms",
+  "Fullname": "Johannes Brahms",
   "Directory": "BRAHMES_Johannes",
-  "Birthyear": "",
-  "Deathyear": "",
-  "Style": ["",""],
-  "Nation": ""
+  "Birthyear": "1833",
+  "Deathyear": "1897",
+  "Photo": "JohannesBrahms.jpg",
+  "Style": ["Romantic"],
+  "Nation": ["Germanic"]
 },
 {
-  "Composer": "Johann Sebastian Bach",
+  "ComposerID": "jsbach",
+  "Fullname": "Johann Sebastian Bach",
   "Directory": "BACH_Johann-Sebastian",
-  "Birthyear": "",
-  "Deathyear": "",
-  "Style": ["",""],
-  "Nation": ""
+  "Birthyear": "1685",
+  "Deathyear": "1750",
+  "Photo": "Johann_Sebastian_Bach.jpg",
+  "Style": ["Baroque"],
+  "Nation": ["Germanic"]
 },
 {
-  "Composer": "George Frideric Handel",
+  "ComposerID": "gfhandel",
+  "Fullname": "George Frideric Handel",
   "Directory": "HANDEL_George-Friederic",
-  "Birthyear": "",
-  "Deathyear": "",
-  "Style": ["",""],
-  "Nation": ""
+  "Birthyear": "1685",
+  "Deathyear": "1759",
+  "Photo": "GFHandel_by_Balthasar_Denner.jpg",
+  "Style": ["Baroque"],
+  "Nation": ["Germanic","English"]
 }
 ]

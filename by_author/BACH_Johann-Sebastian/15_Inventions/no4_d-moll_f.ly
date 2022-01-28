@@ -26,13 +26,9 @@
 %  Set Header
 %*****************************************
 \header {
-  title = "Nr 4 d-moll"
-  subtitle = "extrait de 15 Inventions"
-  subsubtitle = "( für Klavier )"
-  composer = "J.S. Bach"
-  arranger = "BWV 775"
-  %arranger = "Tzu'An Lee"
-  %opus = ""
+  title = "Invention no. 4"
+  subtitle = "d-Moll"
+  opus = "BWV 775"
   tagline = "© 2021 Hautbois Project"
 }
 
@@ -43,7 +39,7 @@
 MyMeter = \time 3/8
 MyTempo = \tempo "Allegro" 4. = 76
 MyKey = \key re \minor
-PieceName = "Fuga 2 voci"
+PieceName = "d-Moll"
 
 VoiceI = \relative {
   %bar 1 - 4
@@ -185,7 +181,7 @@ BassoI = \relative {
   %bar 37 - 40
   re( mi-1\staccato) mi,\staccato
   la16-1\staccato la,-5( sib do re-2 mib-1
-  fad,-5 mib'-2 re-1 do si la
+  fad,-5 mib'-2 re-1 do sib la
   sol8.) sol16-3( la sib
 
   %bar 41 - 44

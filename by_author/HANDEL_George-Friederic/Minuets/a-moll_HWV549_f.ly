@@ -26,13 +26,9 @@
 %  Set Header
 %*****************************************
 \header {
-  title = "Menuet a-moll"
-  %subtitle = ""
-  subsubtitle = "( für Klavier )"
+  title = "Menuet a-Moll"
   composer = "G.F. Handel"
-  arranger = "HWV 549"
-  %arranger = "Tzu'An Lee"
-  %opus = ""
+  opus = "HWV 549"
   tagline = "© 2021 Hautbois Project"
 }
 
@@ -41,16 +37,19 @@
 % Write the voices here
 %*****************************************
 MyMeter = \time 3/4
-%MyTempo = \tempo "Allegro" 4. = 76
+%MyTempo = \tempo "Allegro ma non troppo" 2. = 76
 MyKey = \key la \minor
 PieceName = "Minuet"
 
 VoiceI = \relative {
+  \override BreathingSign.text = \markup { \musicglyph #"scripts.upbow" }
+
   %bar 1 - 4
-  mi''4-5 la,-1\staccato sold-2\staccato
+  mi''4-5 la,-1 sold-2\staccato
   la8-1 do si2-2\trill
   do4-3 re8 do si la-1
   sold4-3 fad8-2 sold mi4-1\staccato
+  \breathe
 
   %bar 5 - 8
   mi'-5\prall re8 do si la-1
@@ -71,12 +70,14 @@ VoiceI = \relative {
   si-2 do-3 la-1 si-3 sol4-1
   fa8-4 mi re4. do8
   do2.
+  \bar "||"
   
   %bar 17 - 20
   do'8-3 re mi4-5\prall sold,-2
   la8-1 do si2-2\trill
   do4-3 re8 do si la
   sold4-3 fad8-2 sold mi4-1\staccato
+  \breathe
 
   %bar 21 - 24
   mi4 la8 sold la4\staccato
@@ -93,38 +94,38 @@ BassoI = \relative {
   la2.-1
   la4 sold\staccato mi\staccato
   la2-1 re,4\staccato
-  mi-1 si\staccato mi,-5\staccato
+  mi-1 si mi,-5\staccato
 
   %bar 5 - 8
-  la do\staccato mi-1\staccato
+  la do mi-1\staccato
   si-5 re-3\staccato mi-2\staccato
-  la-1 re,-3\staccato mi-2\staccato
-  la-1\staccato mi\staccato la,-5\staccato
+  la-1 re,-3 mi-2\staccato
+  la-1\staccato mi\staccato la,-5
   
   %\bar ":|.:"
   
   %bar 9 - 12
-  mi'-1 re-2\staccato do-3\staccato
+  mi'-1 re-2 do-3\staccato
   si-1 la\staccato sol\staccato
   do2-1 fa,4-5\staccato
-  sol la\staccato si-2\staccato
+  sol la si-2\staccato
 
   %bar 13 - 16
-  do-1 si-2\staccato la-1\staccato
+  do-1 si-2 la-1\staccato
   sol fa\staccato mi\staccato
   fa sol2
-  do4-1\staccato sol\staccato do,-5\staccato
+  do4-1\staccato sol\staccato do,-5
   
   %bar 17 - 20
   la''2.-1
   la4 sold\staccato mi\staccato
   la2-1 re,4\staccato
-  mi-1 si\staccato mi,\staccato
+  mi-1 si mi,\staccato
 
   %bar 21 - 24
-  la do\staccato mi-1\staccato
+  la do mi-1\staccato
   si-5 re-3\staccato mi-2\staccato
-  la-1 re,-3\staccato mi-2\staccato
+  la-1 re,-3 mi-2\staccato
   la,2.-5\fermata
   
   %\bar ":|.:"

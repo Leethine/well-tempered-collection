@@ -26,13 +26,8 @@
 %  Set Header
 %*****************************************
 \header {
-  title = "Album für die Jugend"
-  subtitle = "No.1"
-  subsubtitle = "( für Hammerklavier )"
-  composer = "Robert Schumann"
-  arranger = ""
-  %arranger = "Tzu'An Lee"
-  %opus = ""
+  title = "N°. 1 Melodie"
+  subtitle = " "
   tagline = "© 2021 Hautbois Project"
 }
 
@@ -126,7 +121,7 @@ BassoI = \relative {
 %\markup { \vspace #1 }
 \score {
   \header {
-    piece = \PieceName
+    %piece = \PieceName
   }
   \new PianoStaff <<
     \new Staff { 

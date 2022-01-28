@@ -1,0 +1,28 @@
+{
+  "Items": [
+    {
+      "Src": "no1.ly",
+      "Edited": [{"no1_f.ly": "Fingering"}],
+      "Opus": "",
+      "No": "1",
+      "Piecename": "Melodie",
+      "Difficulty": {
+        "Technique": "",
+        "Delicacy": "",
+        "Complexity": ""
+      }
+    },
+    {
+      "Src": "no2.ly",
+      "Edited": [{"no2_f.ly": "Fingering"}],
+      "Opus": "",
+      "No": "2",
+      "Piecename": "Soldatenmarsch",
+      "Difficulty": {
+        "Technique": "",
+        "Delicacy": "",
+        "Complexity": ""
+      }
+    }
+  ]
+}

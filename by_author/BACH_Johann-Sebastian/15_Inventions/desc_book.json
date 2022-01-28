@@ -1,26 +1,16 @@
 {
-  "Title": "",
-  "Subtitle": "",
-  "Subsubtitle": "",
-  "Opus": "8",
-  "Composer": "",
-  "Items": 
-  [
+  "Items": [
     {
-      "Src": "",
-      "Pdf": "",
-      "Opus": "",
-      "No": "",
-      "Piecename": "",
-      "Fingering": ""
-    },
-    {
-      "Src": "",
-      "Pdf": "",
-      "Opus": "",
-      "No": "",
-      "Piecename": "",
-      "Fingering": ""
+      "Src": "no4_d-moll.ly",
+      "Edited": [{"no4_d-moll_f.ly": "Fingering"}],
+      "Opus": "BWV 775",
+      "No": "4",
+      "Piecename": "No.4 in D minor",
+      "Difficulty": {
+        "Technique": "",
+        "Delicacy": "",
+        "Complexity": ""
+      }
     }
   ]
 }

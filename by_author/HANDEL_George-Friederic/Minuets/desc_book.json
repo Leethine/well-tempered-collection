@@ -1,26 +1,16 @@
 {
-  "Title": "",
-  "Subtitle": "",
-  "Subsubtitle": "",
-  "Opus": "8",
-  "Composer": "",
-  "Items": 
-  [
+  "Items": [
     {
-      "Src": "",
-      "Pdf": "",
-      "Opus": "",
+      "Src": "a-moll_HWV549.ly",
+      "Edited": [{"a-moll_HWV549_f.ly": "Fingering"}],
+      "Opus": "HWV 549",
       "No": "",
-      "Piecename": "",
-      "Fingering": ""
-    },
-    {
-      "Src": "",
-      "Pdf": "",
-      "Opus": "",
-      "No": "",
-      "Piecename": "",
-      "Fingering": ""
+      "Piecename": "Minuet in A minor",
+      "Difficulty": {
+        "Technique": "",
+        "Delicacy": "",
+        "Complexity": ""
+      }
     }
   ]
 }
