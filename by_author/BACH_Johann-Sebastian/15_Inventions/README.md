@@ -3,13 +3,12 @@ by Johann Sebastian Bach
 
 ### Edition note
 
-- **Editor: Bruno Mugellini (1871-1912)**
-
-- **Publisher Info.	Milan: Ricordi, n.d. Plate E.R. 2266a.**
+- **Edited by: Tzu'An Lee**
 
 - **Copyright: Public Domain**
 
-- **Recreated with Lilypond**
+- **Licence: [GPLv2](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)**
+
 
 ### Progress
 
