@@ -2,7 +2,7 @@
   "Items": [
     {
       "Src": "a-moll_HWV549.ly",
-      "Edited": [{"a-moll_HWV549_f.ly": "Fingering"}],
+      "Edited": [{"With articulation and fingering": "a-moll_HWV549_f.ly"}],
       "Opus": "HWV 549",
       "No": "",
       "Piecename": "Minuet in A minor",

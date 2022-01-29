@@ -41,100 +41,103 @@ MyKey = \key sol \major
 PieceName = "Munter und straff"
 
 VoiceI = \relative {
+  \set fingeringOrientations = #'(up)
+  
   %bar 1 - 4
-  <sol' si>8. <sol do>16 <sol re'>8 r 
-  <sol mi'>8 r <sol re'> r
-  <fad do'> r <sol si> r
-  <fad la> r sol r
+  <sol'-1 si-2>8. \f <sol do>16 <sol re'>8 r 
+  <sol mi'-5>8 r <sol re'-4> \> r
+  <fad-2 do'-5> r <sol-3 si-5> r
+  <fad-2 la-4> r sol-1 r \!
   
   %bar 5 - 8
-  <sol si>8. <sol do>16 <sol re'>8 r
+  <sol-1 si-2>8. \f <sol do>16 <sol re'>8 r
   <sol mi'>8 r <sol re'> r
-  <mi' sol> r <re fad> r
-  <dod mi> r <re> r
+  <mi'-3 sol-5> \> r <re-2 fad-4> r
+  <dod-2 mi-4> r <re-3> r \!
 
   %bar 9 - 12
-  <sol, si>8. <sol do>16 <sol re'>8 r 
-  <sol mi'>8 r <sol re'> r
-  <fad do'> r <sol si> r
-  <fad la> r sol r
+  <sol,-1 si-2>8. \f <sol do>16 <sol re'>8 r 
+  <sol mi'>8 r <sol re'> \> r
+  <fad do'> r <sol si> r \!
+  <fad la> \> r sol r \!
   
   %bar 13 - 16
-  <sol si>8. <sol do>16 <sol re'>8 r
+  <sol si>8. \f <sol do>16 <sol re'>8 r
   <sol mi'>8 r <sol re'> r
-  <mi' sol> r <re fad> r
-  <dod mi> r <re> r
-  
+  <mi' sol> \> r <re fad> r
+  <dod-2 mi-4> r <re> r \!
+
   \bar ".|:"
   %second part
   
   %bar 17 - 20
-  re,8. mi16 fad4
-  mi re
-  <fad mi'>8 r <sol re'> r
-  <la do> r <sol si> r
+  re,8.-> \f mi16 fad4->
+  mi-> re->
+  <fad mi'>8 \p \> r <sol re'> r
+  <la do> r <sol si> \! r
   
   %bar 21 - 24
-  <re fad la>8. mi16 fad4
-  mi re
-  <la' do>8 r <sol si> r
-  <fad la> r <sol si> r
+  <re fad la>8.-> \f mi16 fad4->
+  mi-> re->
+  <la' do>8 \p \> r <sol si> r
+  <fad la> r <sol si> \! r
   
   %bar 25 - 28
-  <sol si>8. <sol do>16 <sol re'>8 r8
-  <sol mi'> r <sol re'> r
+  <sol si>8. \f <sol do>16 <sol re'>8 r8
+  <sol mi'> r <sol re'> \> r
   <fad do'> r <sol si> r
-  <fad la> r sol r
+  <fad la> r sol \! r
 
   
   %bar 29 - 32
-  do,8. re16 mi4
-  re do
-  re8 r <la' re fad> r
-  <si re sol> r r4
+  do,8.-> \f re16 mi4->
+  re-> do->
+  re8 r <la' re fad> \sf r
+  <si re sol> \sf r r4
   
   \bar ":|."
-  
+
 }
 
 
 BassoI = \relative {
+  \set fingeringOrientations = #'(up)
+
   %bar 1 - 4
-  sol8. la16 si8 r
+  sol8.-4 la16 si8 r
   do r si r
   la r sol r 
   <re  do'> r <sol si> r
   
   %bar 5 - 8
-  sol8. la16 si8 r
-  do r si r
-  dod r re r 
-  \clef "treble" <la sol'> r <re fad> r 
-  
+  sol8.-5 la16 si8 r
+  do r si-3 r
+  dod-2 r re r 
+  \clef "treble" <la sol'> r <re-3 fad-2> r 
+
   %bar 9 - 12
   \clef "bass"
-  sol,8. la16 si8 r
+  sol,8.-4 la16 si8 r
   do r si r
   la r sol r 
   <re  do'> r <sol si> r
   
   %bar 13 - 16
-  sol8. la16 si8 r
+  sol8.-5 la16 si8 r
   do r si r
-  dod r re r 
-  \clef "treble" <la sol'> r <re fad> r 
+  dod-2 r re r 
+  \clef "treble" <la sol'> r <re fad> r
   
   %second part
-  
   %bar 17 - 20
-  \clef "bass" re,8. mi16 fad4
-  mi re
+  \clef "bass" re,8.-> mi16 fad4->
+  mi-> re->
   do'8 r si r
   <fad re'> r <sol re'> r 
   
   %bar 21 - 24
-  re8. mi16 fad4
-  mi re
+  re8.-> mi16 fad4->
+  mi-> re->
   <fad re'>8 r <sol re'> r
   <re re'> r <sol re'> r
   
@@ -146,11 +149,10 @@ BassoI = \relative {
   
   
   %bar 29 - 32
-  do,8. re16 mi4
-  re do
+  do,8.-> re16 mi4->
+  re-> do->
   re8 r re' r
   sol, r r4
-
 }
 
 

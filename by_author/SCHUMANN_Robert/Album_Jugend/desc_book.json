@@ -2,7 +2,10 @@
   "Items": [
     {
       "Src": "no1.ly",
-      "Edited": [{"no1_f.ly": "Fingering"}],
+      "Edited": [
+        {"Pure score with fingering": "no1_f.ly"},
+        {"With articulation and dynamics": "no1_ad.ly"},
+        {"With articulation, dynamics and fingering": "no1_adf.ly"}],
       "Opus": "",
       "No": "1",
       "Piecename": "Melodie",
@@ -14,7 +17,10 @@
     },
     {
       "Src": "no2.ly",
-      "Edited": [{"no2_f.ly": "Fingering"}],
+      "Edited": [
+        {"Source score with fingering": "no2_f.ly"},
+        {"With articulation and dynamics": "no2_ad.ly"},
+        {"With articulation, dynamics and fingering": "no2_adf.ly"}],
       "Opus": "",
       "No": "2",
       "Piecename": "Soldatenmarsch",
