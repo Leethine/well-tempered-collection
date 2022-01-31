@@ -10,16 +10,6 @@
   "Nation": ["Germanic"]
 },
 {
-  "ComposerID": "jbrahms",
-  "Fullname": "Johannes Brahms",
-  "Directory": "BRAHMES_Johannes",
-  "Birthyear": "1833",
-  "Deathyear": "1897",
-  "Photo": "JohannesBrahms.jpg",
-  "Style": ["Romantic"],
-  "Nation": ["Germanic"]
-},
-{
   "ComposerID": "jsbach",
   "Fullname": "Johann Sebastian Bach",
   "Directory": "BACH_Johann-Sebastian",
