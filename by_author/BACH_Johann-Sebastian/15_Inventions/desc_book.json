@@ -2,7 +2,10 @@
   "Items": [
     {
       "Src": "no4_d-moll.ly",
-      "Edited": [{"With fingering": "no4_d-moll_f.ly"}],
+      "Edited": [
+        {"With articulation, dynamic and phrasing": "no4_d-moll_ad.ly"},
+        {"With everything and fingering": "no4_d-moll_adf.ly"}
+      ],
       "Opus": "BWV 775",
       "No": "4",
       "Piecename": "No.4 in D minor",
