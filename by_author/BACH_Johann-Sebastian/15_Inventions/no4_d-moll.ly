@@ -42,82 +42,82 @@ PieceName = "d-Moll"
 
 VoiceI = \relative {
   %bar 1 - 4
-  re'16( mi fa sol la sib  
+  re'16 mi fa sol la sib  
   dod, sib' la sol fa mi
-  fa8\staccato) la\staccato re\staccato
-  sol,\staccato dod\staccato mi\staccato
+  fa8 la re
+  sol, dod mi
   
   %bar 5 - 8
-  re16( mi fa sol la sib
-  dod, sib' la sol fa mi)
-  fa( re mi fa sol la
-  sib, la' sol fa mi re)
+  re16 mi fa sol la sib
+  dod, sib' la sol fa mi
+  fa re mi fa sol la
+  sib, la' sol fa mi re
   
   %bar 9 - 12
-  mi( do re mi fa sol
-  la, sol' fa mi re do)
-  re( mi fa re mi fa
-  sol,8 r8 r8)
+  mi do re mi fa sol
+  la, sol' fa mi re do
+  re mi fa re mi fa
+  sol,8 r8 r8
 
   %bar 13 - 16
   do16 re mi do re mi
-  fa,8\staccato r sib~
-  sib\staccato la\staccato sol\staccato
-  do16( sib la sol fa mi
+  fa,8 r sib~
+  sib la sol
+  do16 sib la sol fa mi
 
   %bar 17 - 20
-  fa sol sol8.\prall fa16
-  fa8\staccato) do'\staccato do\staccato
-  do4.~\prall
+  fa sol sol8. fa16
+  fa8 do' do
+  do4.~
   do4.~
 
   %bar 21 - 24
   do4.~
-  do16( sib la sol fa mi
-  do' re, mi fad sol la)
-  sib( la sol fa mi re
+  do16 sib la sol fa mi
+  do' re, mi fad sol la
+  sib la sol fa mi re
 
   %bar 25 - 28
-  sib' do, re mi fa sol)
-  la( si do re mi fa
-  sold, fa' mi re do si)
-  do( si re do si la
+  sib' do, re mi fa sol
+  la si do re mi fa
+  sold, fa' mi re do si
+  do si re do si la
 
   %bar 29 - 32
-  sold la sold fad mi re)
-  do( re mi fad sold la 
-  re, do' si la sold fad)
-  mi( fad sold la si do
+  sold la sold fad mi re
+  do re mi fad sold la 
+  re, do' si la sold fad
+  mi fad sold la si do
 
   %bar 33 - 36
-  fad, mi' re do si la)
-  sold( la si do re mi
-  la, fa' mi re do si)
-  la'( sold fad mi la8~
+  fad, mi' re do si la
+  sold la si do re mi
+  la, fa' mi re do si
+  la' sold fad mi la8~
 
   %bar 37 - 40
-  la16 re, si8.\prall la16)
+  la16 re, si8. la16
   la8. la16 sib do
-  re,8\staccato fad\staccato la\staccato
-  sib16\staccato( sol la sib do re
+  re,8 fad la
+  sib16 sol la sib do re
 
   %bar 41 - 44
   mi, re' do sib la sol
-  la8\staccato) fa'16( mi fa8\staccato)
-  sol,\staccato mi'\staccato r
-  re16( mi fa sol la sib 
+  la8 fa'16 mi fa8
+  sol, mi' r
+  re16 mi fa sol la sib 
 
   %bar 45 - 48
   dod, sib' la sol fa mi
-  fa8\staccato) re\staccato sol,~
-  sol16 re'( dod mi la, dod)
-  re( si dod8.\prall re16)
+  fa8 re sol,~
+  sol16 re' dod mi la, dod
+  re si dod8. re16
 
   %bar 49 - 52
-  re( do sib la sol fa
+  re do sib la sol fa
   sib dod, re mi fa sol
-  la re fa,8 mi16 re\staccato)
-  re4.\fermata
+  la re fa,8 mi16 re
+  re4.
 
 }
 
@@ -126,80 +126,80 @@ BassoI = \relative {
   %bar 1 - 4
   r4.
   r4.
-  re16( mi fa sol la sib
+  re16 mi fa sol la sib
   dod, sib' la sol fa mi
   
   %bar 5 - 8
-  fa8\staccato) la\staccato re\staccato
-  mi,\staccato sol\staccato dod\staccato
-  re,\staccato re'\staccato fa,\staccato
-  sol\staccato la\staccato sib\staccato
+  fa8 la re
+  mi, sol dod
+  re, re' fa,
+  sol la sib
 
   %bar 9 - 12
-  do,\staccato do'\staccato mi,\staccato
-  fa\staccato sol\staccato la\staccato
-  sib16( sol la sib do re
-  mi, re' do sib la sol)
+  do, do' mi,
+  fa sol la
+  sib16 sol la sib do re
+  mi, re' do sib la sol
 
   %bar 13 - 16
-  la( fa sol la sib do
-  re, do' sib la sol fa)
-  mi( do re mi fa sol
+  la fa sol la sib do
+  re, do' sib la sol fa
+  mi do re mi fa sol
   la, sol' fa mi re do
 
   %bar 17 - 20
-  re sib do8\staccato) do,\staccato
-  fa16( sol la sib do re
-  mi, re' do sib la sol)
-  la( sib do re mi fa
+  re sib do8 do,
+  fa16 sol la sib do re
+  mi, re' do sib la sol
+  la sib do re mi fa
   
   %bar 21 - 24
-  sol, fa' mi re do sib)
-  la( sib do la sib do
-  fad,8) r8 r8
-  sol16( la sib sol la sib
+  sol, fa' mi re do sib
+  la sib do la sib do
+  fad,8 r8 r8
+  sol16 la sib sol la sib
 
   %bar 25 - 28
-  mi,8\staccato) r8 r8
-  fa\staccato fa'\staccato re\staccato
-  si\staccato sold\staccato mi\staccato
-  la16( sold la si do re
+  mi,8 r8 r8
+  fa fa' re
+  si sold mi
+  la16 sold la si do re
 
   %bar 29 - 32
-  mi4.~)\prall
+  mi4.~\prall
   mi4.~
   mi4.~
   mi4.~
 
   %bar 33 - 36
   mi4.~
-  mi8 mi'\staccato re\staccato
-  do\staccato si\staccato la\staccato
-  re\staccato mi\staccato fa\staccato
+  mi8 mi' re
+  do si la
+  re mi fa
 
   %bar 37 - 40
-  re( mi\staccato) mi,\staccato
-  la16\staccato la,( sib do re mib
+  re mi mi,
+  la16 la, sib do re mib
   fad, mib' re do sib la
-  sol8.) sol16( la sib
+  sol8. sol16 la sib
 
   %bar 41 - 44
-  do,8\staccato) sol'\staccato do\staccato
-  fa16( sol la si dod re
+  do,8 sol' do
+  fa16 sol la si dod re
   mi, re' dod si la sol
-  fa8\staccato) la\staccato re\staccato
+  fa8 la re
 
   %bar 45 - 48
-  mi,\staccato sol\staccato dod\staccato
-  re,16( mi fa sol la sib
-  dod sib la sol fa mi
-  fa sol la8\staccato) la,\staccato
+  mi, sol dod
+  re,16 mi fa sol la sib
+  dod, sib' la sol fa mi
+  fa sol la8 la,
 
   %bar 49 - 52
-  sib8.( do16 sib la
+  sib8. do16 sib la
   sol sib' la sol fa mi
-  fa sol la8\staccato) la,\staccato
-  re,4.\fermata
+  fa sol la8 la,
+  re,4.
 
 }
 

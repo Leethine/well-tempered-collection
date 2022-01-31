@@ -56,18 +56,18 @@ VoiceI = \relative {
   
   %bar 9 - 12
   mi-3( do-1 re mi fa sol
-  la, sol' fa mi re do)
+  la,) sol'( fa mi re do)
   re-2( mi fa re mi fa
-  sol,8-1 r8 r8)
+  sol,8-1) r8 r8
 
   %bar 13 - 16
-  do16-2 re mi do re mi
-  fa,8\staccato r sib~-4
+  do16-2( re mi do re mi
+  fa,8\staccato ) r sib~-4
   sib\staccato la\staccato sol\staccato
   do16( sib la sol fa mi-2
 
   %bar 17 - 20
-  fa-1 sol sol8.\prall fa16
+  fa-1 sol sol8.\prall-2 fa16
   fa8\staccato) do'\staccato do-2\staccato
   do4.~\prall
   do4.~
@@ -98,24 +98,24 @@ VoiceI = \relative {
 
   %bar 37 - 40
   la16 re,-1 si8.\prall la16)
-  la8. la16-3 sib do
+  { \stemDown la8.[ \breathe la16-3 sib do] }
   re,8-1\staccato fad-2\staccato la-4\staccato
   sib16-3\staccato( sol la sib do re
 
   %bar 41 - 44
   mi, re' do sib la sol
-  la8\staccato) fa'16-4( mi-3 fa8-5\staccato)
-  sol,-1\staccato mi'-4\staccato r
+  la8\staccato) fa'16-4( mi-3 fa8-4\staccato)
+  sol,-1\staccato mi'-5\staccato r
   re16-2( mi-1 fa sol la sib 
 
   %bar 45 - 48
   dod, sib' la sol fa mi
   fa8-4\staccato) re\staccato sol,~
   sol16 re'-3( dod-2 mi-4 la,-1 dod-3)
-  re( si dod8.-3\prall re16-4)
+  re-4( si-1 dod8.-2\prall re16-3)
 
   %bar 49 - 52
-  re-5( do sib la sol fa-3
+  re-5( do sib la sol fa-2
   sib-5 dod,-2 re-1 mi fa sol-1
   la-2 re fa,8-1 mi16-3 re-2\staccato)
   re4.-1\fermata
@@ -193,11 +193,11 @@ BassoI = \relative {
   %bar 45 - 48
   mi,-5\staccato sol\staccato dod\staccato
   re,16-5( mi fa sol la sib
-  dod sib la-1 sol fa mi
+  dod, sib' la-1 sol fa mi
   fa sol la8\staccato) la,\staccato
 
   %bar 49 - 52
-  sib8.-3( do16 sib la
+  sib8.-3[( \breathe do16 sib la]
   sol sib'-1 la-1 sol fa mi
   fa sol la8\staccato) la,-2\staccato
   re,4.-5\fermata

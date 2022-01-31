@@ -85,7 +85,6 @@ VoiceI = \relative {
   <sol mi'> r <sol re'> r
   <fad do'> r <sol si> r
   <fad la> r sol r
-
   
   %bar 29 - 32
   do,8. re16 mi4
@@ -143,7 +142,6 @@ BassoI = \relative {
   do r si r
   la r sol r
   <re do'> r <sol si> r
-  
   
   %bar 29 - 32
   do,8. re16 mi4

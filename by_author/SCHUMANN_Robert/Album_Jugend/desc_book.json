@@ -3,9 +3,8 @@
     {
       "Src": "no1.ly",
       "Edited": [
-        {"Pure score with fingering": "no1_f.ly"},
-        {"With articulation and dynamics": "no1_ad.ly"},
-        {"With articulation, dynamics and fingering": "no1_adf.ly"}],
+        {"With articulation, dynamics and phrasing": "no1_ad.ly"},
+        {"With everything and fingering": "no1_adf.ly"}],
       "Opus": "",
       "No": "1",
       "Piecename": "Melodie",
@@ -18,12 +17,53 @@
     {
       "Src": "no2.ly",
       "Edited": [
-        {"Source score with fingering": "no2_f.ly"},
-        {"With articulation and dynamics": "no2_ad.ly"},
-        {"With articulation, dynamics and fingering": "no2_adf.ly"}],
+        {"With articulation, dynamics and phrasing": "no2_ad.ly"},
+        {"With everything and fingering": "no2_adf.ly"}],
       "Opus": "",
       "No": "2",
       "Piecename": "Soldatenmarsch",
+      "Difficulty": {
+        "Technique": "",
+        "Delicacy": "",
+        "Complexity": ""
+      }
+    },
+    {
+      "Src": "no3.ly",
+      "Edited": [
+        {"With articulation, dynamics and phrasing": "no3_ad.ly"},
+        {"With everything and fingering": "no3_adf.ly"}],
+      "Opus": "",
+      "No": "3",
+      "Piecename": "Trällerliedchen",
+      "Difficulty": {
+        "Technique": "",
+        "Delicacy": "",
+        "Complexity": ""
+      }
+    },
+    {
+      "Src": "no4.ly",
+      "Edited": [
+        {"With articulation, dynamics and phrasing": "no4_ad.ly"},
+        {"With everything and fingering": "no4_adf.ly"}],
+      "Opus": "",
+      "No": "4",
+      "Piecename": "Ein Choral",
+      "Difficulty": {
+        "Technique": "",
+        "Delicacy": "",
+        "Complexity": ""
+      }
+    },
+    {
+      "Src": "no5.ly",
+      "Edited": [
+        {"With articulation, dynamics and phrasing": "no5_ad.ly"},
+        {"With everything and fingering": "no5_adf.ly"}],
+      "Opus": "",
+      "No": "5",
+      "Piecename": "Stückchen",
       "Difficulty": {
         "Technique": "",
         "Delicacy": "",
