@@ -43,7 +43,7 @@ PieceName = "Nicht schnell"
 VoiceI = \relative {
   
   %bar 1 - 9
-  { \omit r2 }  mi''4-2 \p ( fa
+  s2 mi''4-2 \p ( fa
   sol la re,-1 mi
   fa2) do4-1( re
   mi mi-4 re-3 la
@@ -51,12 +51,12 @@ VoiceI = \relative {
   sol la re, mi
   fa2) do4-1( re
   mi mi-4 re si
-  re do) { \omit r2 }
+  re do) s2
   
   \bar "||"
   
   %bar 10 - 17
-  { \omit r2 } si4-1 \p ( do
+  s2 si4-1 \p ( do
   re mi do re
   mi2) \crescTextCresc do4-1 \< ( re \!
   mi fa re mi
@@ -76,7 +76,7 @@ VoiceI = \relative {
   sol la re, mi
   fa2) do4-1( re
   mi \dimTextDim mi-4 \> re \! si
-  re do) { \omit r2 }
+  re do) s2
   
   \bar "|."
 
@@ -87,7 +87,7 @@ BassoI = \relative {
   
   \clef "treble" 
   %bar 1 - 4
-  { \omit r2 } do'8-5( sol' re sol
+  s2 do'8-5( sol' re sol
   mi sol fa sol si,-5 sol' do,-4 sol'
   re-3 sol re sol) la,-5 sol' si,-4( sol'
   do,-3 sol' do, sol' re-2 fad-1 re fad
@@ -108,7 +108,7 @@ BassoI = \relative {
   %\bar "||"
   
   %bar 10 - 13
-  { \omit r2 } \slurDown sol8-5 ( sol' la, sol'
+  s2 \slurDown sol8-5 ( sol' la, sol'
   si, sol' do, sol' la, sol' si, sol'
   do, sol') do, sol' la,( sol' si, sol'
   do, sol' re sol si, sol' do, sol'
@@ -143,7 +143,7 @@ BassoI = \relative {
     { \voiceOne fa4-1( mi-2) }
     \new Voice { 
       \voiceTwo
-      do2 { \omit r2 }
+      do2 s2
     }
   >>
   
