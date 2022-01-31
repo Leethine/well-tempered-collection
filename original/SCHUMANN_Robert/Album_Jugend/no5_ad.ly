@@ -43,40 +43,40 @@ PieceName = "Nicht schnell"
 VoiceI = \relative {
   
   %bar 1 - 9
-  { \omit r2 }  mi''4-2 \p ( fa
-  sol la re,-1 mi
-  fa2) do4-1( re
-  mi mi-4 re-3 la
-  do-2 si) mi-2( fa
+  s2 mi''4 \p ( fa
   sol la re, mi
-  fa2) do4-1( re
-  mi mi-4 re si
-  re do) { \omit r2 }
+  fa2) do4( re
+  mi mi re la
+  do si) mi( fa
+  sol la re, mi
+  fa2) do4( re
+  mi mi re si
+  re do) s2
   
   \bar "||"
   
   %bar 10 - 17
-  { \omit r2 } si4-1 \p ( do
+  s2 si4 \p ( do
   re mi do re
-  mi2) \crescTextCresc do4-1 \< ( re \!
+  mi2) \crescTextCresc do4 \< ( re \!
   mi fa re mi
-  fa re-1) mi( fa
+  fa re) mi( fa
   sol la re, mi
-  fa2) do4-1( re
+  fa2) do4( re
   
   %bar 18 - 21
-  mi \dimTextDim mi-4 \> re \! si
+  mi \dimTextDim mi \> re \! si
   re do) si \p ( do
   re mi do re
-  mi2) \crescTextCresc do4-1 \< ( re \!
+  mi2) \crescTextCresc do4 \< ( re \!
   
   %bar 22 - 25
   mi fa re mi
   fa re) mi( fa
   sol la re, mi
-  fa2) do4-1( re
-  mi \dimTextDim mi-4 \> re \! si
-  re do) { \omit r2 }
+  fa2) do4( re
+  mi \dimTextDim mi \> re \! si
+  re do) s2
   
   \bar "|."
 
@@ -87,18 +87,18 @@ BassoI = \relative {
   
   \clef "treble" 
   %bar 1 - 4
-  { \omit r2 } do'8-5( sol' re sol
-  mi sol fa sol si,-5 sol' do,-4 sol'
-  re-3 sol re sol) la,-5 sol' si,-4( sol'
-  do,-3 sol' do, sol' re-2 fad-1 re fad
-  
-  %bar 5 - 9
-  sol, sol' sol, sol') do,-5 sol' re( sol
+  s2 do'8( sol' re sol
   mi sol fa sol si, sol' do, sol'
   re sol re sol) la, sol' si,( sol'
-  do, sol' mi sol fa, fa' sol,-5 re'-2)
+  do, sol' do, sol' re fad re fad
+  
+  %bar 5 - 9
+  sol, sol' sol, sol') do, sol' re( sol
+  mi sol fa sol si, sol' do, sol'
+  re sol re sol) la, sol' si,( sol'
+  do, sol' mi sol fa, fa' sol, re')
   <<
-    { \voiceOne fa4 \finger\markup "4,1" ( mi-2) }
+    { \voiceOne fa4( mi) }
     \new Voice { 
       \voiceTwo
       do2 { \omit r2 }
@@ -108,7 +108,7 @@ BassoI = \relative {
   %\bar "||"
   
   %bar 10 - 13
-  { \omit r2 } \slurDown sol8-5 ( sol' la, sol'
+  s2 \slurDown sol8 ( sol' la, sol'
   si, sol' do, sol' la, sol' si, sol'
   do, sol') do, sol' la,( sol' si, sol'
   do, sol' re sol si, sol' do, sol'
@@ -117,11 +117,11 @@ BassoI = \relative {
   re sol si, sol') do,( sol' re sol
   mi sol fa sol si, sol' dod, sol'
   re sol) re sol la,( sol' si, sol'
-  do, sol' mi sol fa, fa' sol,-5 re'-2)
+  do, sol' mi sol fa, fa' sol, re')
   
   %bar 18
   <<
-    { \voiceOne fa4\finger \markup "4,1"( mi-2) }
+    { \voiceOne fa4( mi) }
     \new Voice { 
       \voiceTwo
       do2
@@ -136,14 +136,14 @@ BassoI = \relative {
   re sol si, sol') do,( sol' re sol
   mi sol fa sol si, sol' dod, sol'
   re sol) re sol la,( sol' si, sol'
-  do, sol' mi sol fa, fa' sol,-5 re'-2)
+  do, sol' mi sol fa, fa' sol, re')
   
   %bar 26
   <<
-    { \voiceOne fa4-1( mi-2) }
+    { \voiceOne fa4( mi) }
     \new Voice { 
       \voiceTwo
-      do2 { \omit r2 }
+      do2 s2
     }
   >>
   
