@@ -30,6 +30,9 @@ Here are some aesthetic rules that I create new scores:
 
 Contribution from the community is welcomed without limitation on the author or style, any classical music pieces will be accepted.
 
+
+
+
 ## 我的鋼琴學習曲集
 
 #### 簡介
@@ -52,4 +55,6 @@ Contribution from the community is welcomed without limitation on the author or 
 - 有教育意義的曲目優先
 - 賦格優先
 - 不建議零散曲目
+
+歡迎所有的貢獻，只要是古典樂就好.
 
