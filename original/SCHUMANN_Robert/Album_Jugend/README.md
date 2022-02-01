@@ -22,9 +22,9 @@ by Robert Schumann
 |:-:|---|:-:|
 | No.1 | Melodie | ✅ |
 | No.2 | Soldatenmarsch | ✅ |
-| No.3 | Trällerliedchen | 🚩 |
-| No.4 | Ein Choral | 🚩 |
-| No.5 | Stückchen | 🚩 |
+| No.3 | Trällerliedchen | ✅ |
+| No.4 | Ein Choral | ✅ |
+| No.5 | Stückchen | ✅ |
 | No.6 | Armes Waisenkind | 🚩 |
 | No.7 | Jägerliedchen | 🚩 |
 | No.8 | Wilder Reiter | 🚩 |
