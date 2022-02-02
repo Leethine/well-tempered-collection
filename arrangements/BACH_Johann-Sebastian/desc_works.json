@@ -1,13 +1,24 @@
 [
   {
-    "Title": "Kantata",
+    "Title": "Cantata",
     "Subtitle": "Ich steh mit einem Fuß im Grabe",
     "Subsubtitle": "",
-    "Opus": "BWV167",
+    "Opus": "BWV 156",
     "Directory": "Cantata156",
     "Image": "",
     "Tag": [],
-    "Info": "Arrangements based on Cantata 156.",
+    "Info": "Arrangements based on Cantata BWV156.",
+    "Translation":[""]
+  },
+  {
+    "Title": "Cantata",
+    "Subtitle": "Herz und Mund und Tat und Leben",
+    "Subsubtitle": "",
+    "Opus": "BWV 147",
+    "Directory": "Cantata147",
+    "Image": "",
+    "Tag": [],
+    "Info": "Arrangements based on Cantata BWV147.",
     "Translation":[""]
   }
 ]

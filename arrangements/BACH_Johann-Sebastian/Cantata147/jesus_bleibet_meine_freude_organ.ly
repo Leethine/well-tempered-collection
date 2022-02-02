@@ -13,7 +13,7 @@
   % Set paper
   #(set-paper-size "b5")
   indent = 0\mm
-  line-width = 15.4\cm
+  line-width = 15\cm
   ragged-right = ##f
   line-width = #(- line-width (* mm 3.000000) (* mm 1))
 }
@@ -26,8 +26,8 @@
 %  Set Header
 %*****************************************
 \header {
-  subtitle = "Jesus bleibet meine Freude"
-  subsubtitle = "extrait de cantate «Herz und Mund un Tat und Leben»"
+  title = "Jesus bleibet meine Freude"
+  subtitle = "extrait de cantate «Herz und Mund un Tat und Leben»"
   arranger = "BWV 147"
   tagline = "© 2021 Hautbois Project"
 }
