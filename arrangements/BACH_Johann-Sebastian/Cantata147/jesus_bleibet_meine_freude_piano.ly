@@ -387,14 +387,11 @@ BassoContinuo = \relative sol, {
       \MyTempo
       \MyKey
       \MyMeter
-      \ViolinI
-    }
-    \new Staff {
-      \clef "treble" 
-      \MyTempo
-      \MyKey
-      \MyMeter
-      \ViolinII
+      <<
+        \ViolinI
+        \\
+        \ViolinII
+      >>
     }
     \new Staff {
       \clef "bass" 
