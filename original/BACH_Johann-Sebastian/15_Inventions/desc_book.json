@@ -14,6 +14,21 @@
         "Delicacy": "",
         "Complexity": ""
       }
+    },
+    {
+      "Src": "no8_f-dur.ly",
+      "Edited": [
+        {"With articulation, dynamic and phrasing": "no8_f-dur_ad.ly"},
+        {"With everything and fingering": "no8_f-dur_adf.ly"}
+      ],
+      "Opus": "BWV 779",
+      "No": "8",
+      "Piecename": "No.8 in F Major",
+      "Difficulty": {
+        "Technique": "",
+        "Delicacy": "",
+        "Complexity": ""
+      }
     }
   ]
 }
