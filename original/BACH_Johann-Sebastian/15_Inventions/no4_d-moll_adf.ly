@@ -98,7 +98,7 @@ VoiceI = \relative {
 
   %bar 37 - 40
   la16 re,-1 si8.\prall la16)
-  { \stemDown la8.[ \breathe la16-3 sib do] }
+  { \stemDown la8.[ \breathe la16 sib do-5] }
   re,8-1\staccato fad-2\staccato la-4\staccato
   sib16-3\staccato( sol la sib do re
 
@@ -119,6 +119,8 @@ VoiceI = \relative {
   sib-5 dod,-2 re-1 mi fa sol-1
   la-2 re fa,8-1 mi16-3 re-2\staccato)
   re4.-1\fermata
+  
+  \bar "|."
 
 }
 
@@ -201,6 +203,8 @@ BassoI = \relative {
   sol sib'-1 la-1 sol fa mi
   fa sol la8\staccato) la,-2\staccato
   re,4.-5\fermata
+  
+  %\bar "|."
 
 }
 

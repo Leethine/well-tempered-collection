@@ -119,6 +119,8 @@ VoiceI = \relative {
   sib dod, re mi fa sol
   la re fa,8 mi16 re
   re4.
+  
+  \bar "|."
 
 }
 
@@ -201,6 +203,8 @@ BassoI = \relative {
   sol sib' la sol fa mi
   fa sol la8 la,
   re,4.
+  
+  %\bar "|."
 
 }
 
