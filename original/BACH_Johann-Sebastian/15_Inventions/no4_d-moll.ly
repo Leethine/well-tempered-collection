@@ -26,8 +26,9 @@
 %  Set Header
 %*****************************************
 \header {
-  subtitle = "Invention no. 4"
-  arranger = "BWV 775"
+  title = "Invention N°. 4"
+  subtitle = "d-Moll"
+  opus = "BWV 775"
   tagline = "© 2021 Hautbois Project"
 }
 
