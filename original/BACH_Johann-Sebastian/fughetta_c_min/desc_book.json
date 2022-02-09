@@ -1,0 +1,19 @@
+{
+  "Items": [
+    {
+      "Src": "fughetta_cmoll.ly",
+      "Edited": [
+        {"With articulation, dynamic and phrasing": "fughetta_cmoll_ad.ly"},
+        {"With everything and fingering": "fughetta_cmoll_adf.ly"}
+      ],
+      "Opus": "BWV 961",
+      "No": "0",
+      "Piecename": "Fughetta c-moll",
+      "Difficulty": {
+        "Technique": "",
+        "Delicacy": "",
+        "Complexity": ""
+      }
+    }
+  ]
+}
