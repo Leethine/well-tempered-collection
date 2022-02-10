@@ -11,5 +11,18 @@
     "Info": "Collection of Minuets by Handel.",
     "Difficulty": "",
     "Translation":[""]
+  },
+  {
+    "Title": "Suite in D Minor",
+    "Subtitle": "Suite in D Minor",
+    "Subsubtitle": "",
+    "Opus": "HWV 437",
+    "Sections": "4",
+    "Directory": "suite_dm_437",
+    "Image": "",
+    "Tag": [],
+    "Info": "Suite in D Minor, HWV 437.",
+    "Difficulty": "",
+    "Translation":[""]
   }
 ]
