@@ -1,0 +1,56 @@
+{
+  "Items": [
+    {
+      "Src": "allemande.ly",
+      "Edited": [{"With phrasing and dynamics": "allemande_ad.ly"},
+                 {"With everyting and fingering": "allemande_adf.ly"}],
+      "Opus": "HWV 437",
+      "No": "1",
+      "Piecename": "Allemande",
+      "Difficulty": {
+        "Technique": "",
+        "Delicacy": "",
+        "Complexity": ""
+      }
+    },
+    {
+      "Src": "courante.ly",
+      "Edited": [{"With phrasing and dynamics": "courante_ad.ly"},
+                 {"With everyting and fingering": "courante_adf.ly"}],
+      "Opus": "HWV 437",
+      "No": "2",
+      "Piecename": "Courante",
+      "Difficulty": {
+        "Technique": "",
+        "Delicacy": "",
+        "Complexity": ""
+      }
+    },
+    {
+      "Src": "sarabande.ly",
+      "Edited": [{"With phrasing and dynamics": "sarabande_ad.ly"},
+                 {"With everyting and fingering": "sarabande_adf.ly"}],
+      "Opus": "HWV 437",
+      "No": "3",
+      "Piecename": "Sarabande",
+      "Difficulty": {
+        "Technique": "",
+        "Delicacy": "",
+        "Complexity": ""
+      }
+    },
+    {
+      "Src": "gigue.ly",
+      "Edited": [{"With phrasing and dynamics": "gigue_ad.ly"},
+                 {"With everyting and fingering": "gigue_adf.ly"}],
+      "Opus": "HWV 437",
+      "No": "4",
+      "Piecename": "Gigue",
+      "Difficulty": {
+        "Technique": "",
+        "Delicacy": "",
+        "Complexity": ""
+      }
+    }
+  ]
+}
