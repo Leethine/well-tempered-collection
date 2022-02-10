@@ -1,0 +1,19 @@
+{
+  "Items": [
+    {
+      "Src": "bwv716.ly",
+      "Edited": [
+        {"With articulation, dynamic and phrasing": "bwv716_ad.ly"},
+        {"With everything and fingering": "bwv716_adf.ly"}
+      ],
+      "Opus": "BWV 716",
+      "No": "0",
+      "Piecename": "Fuga super - Allein Gott in der Höh sei Ehr",
+      "Difficulty": {
+        "Technique": "",
+        "Delicacy": "",
+        "Complexity": ""
+      }
+    }
+  ]
+}

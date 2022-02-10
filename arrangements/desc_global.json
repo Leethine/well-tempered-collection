@@ -1,0 +1,22 @@
+[
+{
+  "ComposerID": "jsbach",
+  "Fullname": "Johann Sebastian Bach",
+  "Directory": "BACH_Johann-Sebastian",
+  "Birthyear": "1685",
+  "Deathyear": "1750",
+  "Photo": "Johann_Sebastian_Bach.jpg",
+  "Style": ["Baroque"],
+  "Nation": ["Germanic"]
+},
+{
+  "ComposerID": "gfhandel",
+  "Fullname": "George Frideric Handel",
+  "Directory": "HANDEL_George-Friederic",
+  "Birthyear": "1685",
+  "Deathyear": "1759",
+  "Photo": "GFHandel_by_Balthasar_Denner.jpg",
+  "Style": ["Baroque"],
+  "Nation": ["Germanic","English"]
+}
+]

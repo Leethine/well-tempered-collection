@@ -26,7 +26,7 @@
 %  Set Header
 %*****************************************
 \header {
-  title = "Invention no. 4"
+  title = "Invention N°. 4"
   subtitle = "d-Moll"
   opus = "BWV 775"
   tagline = "© 2021 Hautbois Project"
@@ -119,6 +119,8 @@ VoiceI = \relative {
   sib dod, re mi fa sol
   la re fa,8 mi16 re\staccato)
   re4.\fermata
+  
+  \bar "|."
 
 }
 
@@ -201,6 +203,8 @@ BassoI = \relative {
   sol sib' la sol fa mi
   fa sol la8\staccato) la,\staccato
   re,4.\fermata
+  
+  %\bar "|."
 
 }
 
