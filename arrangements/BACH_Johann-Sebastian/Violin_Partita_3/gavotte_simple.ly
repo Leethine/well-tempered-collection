@@ -41,7 +41,8 @@ MyTempo = \tempo "Allegro"
 MyKey = \key mi \major
 PieceName = "Gavotte en Rondeau"
 
-MelodieA = \relative si {
+Melodie = \relative si {
+  % A
   %bar 1 - 4
   s2 si4 sold' |
   sold fad8 mi fad4 la |
@@ -55,9 +56,41 @@ MelodieA = \relative si {
   <mi sold,>2 s2
   
   \bar "||"
+  
+  % B
+  %bar 10 - 14
+  s2 si4 sold' |
+  dod,4 dod8 sid dod mi red sid |
+  sid4 dod dod8 red mi sold | 
+  dod,8 red mi la red, fad mi dod |
+  sid8 red sold, fad r sold dod mi |
+  
+  %bar 15 - 18
+  sold8 la si dod, r dod sold' si |
+  si sold la fad r sid, red fad |
+  fad red mi dod sold4 sid |
+  <dod sold mi>2 si!4 sold' |
+  
+  %A
+  %bar 19 - 22
+  << 
+     \voiceOne { sold fad8 mi }
+     \new Voice { \voiceTwo dod2 }
+  >> fad4 la |
+  <la fad>2 si8 sold la fad |
+  si, fad'16 sold la8 fad sold mi fad red |
+  mi si sold mi sold si mi sold |
+  
+  %bar 23 - 25
+  dod, sold' fad mi fad sold la fad |
+  la2 si,4 sold' dod, fad fad, red' |
+  <mi sold,>2 mi,8 fad sold la |
+  
+  %C
+  
 }
 
-BassoA = \relative mi {
+Basso = \relative mi {
   %bar 1 - 4
   s2 mi2 |
   <la dod> r |
@@ -72,19 +105,36 @@ BassoA = \relative mi {
   mi,2 s2
   
   %\bar "||"
-
-}
-
-Melodie = {
-
-  \MelodieA
-
-}
-
-Basso = {
-
-  \BassoA
-
+  
+  % B
+  %bar 10 - 14
+  s2 mi'2 |
+  la2 sold |
+  fad mi |
+  fad la, |
+  sold mi' |
+  
+  %bar 15 - 18
+  r2 mid |
+  fad la |
+  r2 sold, |
+  dod, mi' |
+  
+  %A
+  %bar 19 - 22
+  la2 r |
+  <si red>2 r |
+  red, mi4 si |
+  mi,2 mi' |
+  
+  %bar 23 - 25
+  la r |
+  si mi, |
+  la, si |
+  mi, r2 |
+  
+  %C
+  
 }
 
 

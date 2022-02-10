@@ -1,9 +1,9 @@
 {
   "Items": [
     {
-      "Src": "gavotte.ly",
+      "Src": "gavotte_simple.ly",
       "Opus": "BWV 1006",
-      "Piecename": "Gavotte en Rondeau",
+      "Piecename": "Gavotte en Rondeau (simplified piano version)",
       "Instrument": ["piano"]
     }
   ]
