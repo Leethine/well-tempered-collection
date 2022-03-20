@@ -65,7 +65,7 @@ VoiceI = \relative la' {
   r16 sib'-4 la sol re'4 r16 do si la mi'4 |
   
   %bar 7 - 9
-  \stemDown r16 la, fa' fa \stemUp sol, mi' mi mi re fa, fa fa mi do' do do |
+  \stemDown si16\rest la fa' fa \stemUp sol, mi' mi mi re fa, fa fa mi do' do do |
   r16 do-5 si-4 la-3 sold8-2 la-3 si-1 do16 re si8.-1 la16-4 |
   la4-4 r16 la8 sold16 la4 s4
   
@@ -83,10 +83,10 @@ VoiceI = \relative la' {
   <re sib fa>4 r16 \stemDown fa mi re \stemUp <dod^4 la^3 mi^1>4 r16 \stemDown fa mi re |
   
   %bar 18 - 21
-  sib'4 r16 mi, re do la'4 r16 fa fa fa |
+  sib'4 re,16\rest mi re do la'4 r16 fa fa fa |
   \stemDown sol,16 mi' mi mi \stemUp re fa, fa fa mi do' do do sib re, re re |
   do la' la la sol sib, sib sib la fa' mi re dod8.\prallprall re16-4 |
-  re4 r16 re8 dod16 re4. 
+  re4 fa16\rest re8 dod16 re4. 
   
   \bar ":|."
   
@@ -112,7 +112,7 @@ VoiceII = \relative sol' {
   
   %bar 10 - 13
   s2 s4. mi'8 |
-  r16 re dod si dod4 r16 re dod si 
+  s16 re dod si dod4 s16 re dod si 
   << { \voiceOne dod4 } 
      \new Voice { \voiceTwo r16 sol fa mi }
   >> |
@@ -187,10 +187,10 @@ VoiceIV = \relative re {
   sib4 \stemUp	sib,4~ sib16 re do sib^4 la8^5 la' |
   \stemDown sib, sib' do, do' re,4 mi8 fa |
   sib,8^5 sib' do,4 fa8-5 sol-4 la-3 fa |
-  r16 sib, sib' la sol4 r16 mi la sol fa8 sib |
+  r16 sib, sib' la sol4 re16\rest mi la sol fa8 sib |
   
   %bar 18 - 21
-  r16 sol^4 la sib do8 do, r16 sol' fa mi re8 re' |
+  fa16\rest sol^4 la sib do8 do, fa16\rest sol fa mi re8 re' |
   sib8 do fa, sol la^1 la, re mi |
   fa8^1 fa, sib do re sol, la4 |
   re8 re, fa la-2 <re, re'>4.
