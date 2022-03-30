@@ -2,7 +2,7 @@
 %! Subtitle: No 6. Armes Waisenkind
 %! Subsubtitle:
 %! Type: final
-%! Status: review
+%! Status: working
 %! Remark: correctness and fingering
 
 \version "2.21.1"
