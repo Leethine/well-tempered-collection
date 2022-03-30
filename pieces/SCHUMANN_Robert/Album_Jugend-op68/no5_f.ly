@@ -54,22 +54,22 @@ VoiceI = \relative {
   sol la re, mi
   fa2) do4( re
   mi mi re la
-  do si) mi( fa
+  do si) mi( fa!
   sol la re, mi
   fa2) do4( re
   mi mi re si
-  re do) s2
+  re do)
   
   \bar "||"
   
   %bar 10 - 17
-  s2 si4 \p ( do
+  si4 \p ( do
   re mi do re
   mi2) \crescTextCresc do4 \< ( re \!
   mi fa re mi
   fa re) mi( fa
   sol la re, mi
-  fa2) do4( re
+  fa2) do!4( re
   
   %bar 18 - 21
   mi \dimTextDim mi \> re \! si
@@ -81,7 +81,7 @@ VoiceI = \relative {
   mi fa re mi
   fa re) mi( fa
   sol la re, mi
-  fa2) do4( re
+  fa2) do!4( re
   mi \dimTextDim mi \> re \! si
   re do) s2
   
@@ -108,14 +108,14 @@ BassoI = \relative {
     { \voiceOne fa4( mi) }
     \new Voice { 
       \voiceTwo
-      do2 { \omit r2 }
+      do2
     }
   >>
   
-  %\bar "||"
+  \bar "||"
   
   %bar 10 - 13
-  s2 \slurDown sol8 ( sol' la, sol'
+  \slurDown sol8 ( sol' la, sol'
   si, sol' do, sol' la, sol' si, sol'
   do, sol') do, sol' la,( sol' si, sol'
   do, sol' re sol si, sol' do, sol'

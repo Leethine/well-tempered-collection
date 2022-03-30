@@ -63,7 +63,7 @@ VoiceI = \relative {
   <dod mi> r <re> r \!
 
   %bar 9 - 12
-  <sol, si>8. \f <sol do>16 <sol re'>8 r 
+  <sol, si>8. \f <sol do!>16 <sol re'>8 r 
   <sol mi'>8 r <sol re'> \> r
   <fad do'> r <sol si> r \!
   <fad la> \> r sol r \!
@@ -97,10 +97,10 @@ VoiceI = \relative {
 
   
   %bar 29 - 32
-  do,8.-> \f re16 mi4->
+  do,8.-> re16 mi4->
   re-> do->
-  re8 r <la' re fad> \sf r
-  <si re sol> \sf r r4
+  re8 r <la' re fad> \f r
+  <si re sol> \f r r4
   
   \bar ":|."
 

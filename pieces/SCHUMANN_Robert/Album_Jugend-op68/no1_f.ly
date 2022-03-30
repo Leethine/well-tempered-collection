@@ -60,7 +60,7 @@ VoiceI = \relative {
   
   %var: bar 1 - 4
   re'\espressivo( do si) r
-  fa'\espressivo( mi re) r
+  fa'!\espressivo( mi re) r
   la'\espressivo \sf \> ( sol fa mi \!
   re8 fa mi sol)
   << { \voiceOne { \stemDown la,8 do si re } }
@@ -71,14 +71,14 @@ VoiceI = \relative {
   { \stemDown <mi do>4 \p ( re do si }
   la8 do si re do4 { \stemUp sol) }
   {\stemDown la' \> ( sol <fa si,> <mi do> \! }
-  re8 fa si, re do4) r
+  re8 fa si, re do4) si4\rest
     
   %var: bar 9 - 12
-  re\espressivo( do si) r
-  fa'\espressivo( mi re) r
+  re\espressivo( do si) si4\rest
+  fa'!\espressivo( mi re) do4\rest
   la'\espressivo \sf \> ( sol fa mi \!
   re8 fa mi sol)
-  << { \voiceOne { \stemDown la,8 do si re } }
+  << { \voiceOne { \stemDown la,8 do! si re } }
     \new Voice { \voiceTwo { \stemUp fa4.} }
   >>
   
@@ -86,7 +86,7 @@ VoiceI = \relative {
   { \stemDown <mi do>4 \p ( re do si }
   la8 do si re do4 { \stemUp sol) }
   {\stemDown la' \> ( sol <fa si,> <mi do> \! }
-  re8 fa si, re do4) r
+  re8 fa si, re do4) si4\rest
   
   \bar "|."
 }
@@ -100,9 +100,9 @@ BassoI = \relative {
   re sol do, re si re sol,4)
   
   %var: bar 1 - 4
-  fa'8( sol mi sol re sol fad sol)
+  fa'!8( sol mi sol re sol fad sol)
   re( sol do, sol' si, sol' fad sol)
-  fa( sol mi sol re sol do, sol'
+  fa!( sol mi sol re sol do, sol'
   si, sol' do, dod re4 sol)
   
   %var: bar 5 - 8
