@@ -2,7 +2,7 @@
 %! Subtitle:
 %! Subsubtitle:
 %! Type: final
-%! Status: review
+%! Status: done
 %! Remark:
 
 \version "2.22.1"
@@ -20,7 +20,7 @@
   % Set paper
   #(set-paper-size "b5")
   indent = 0\mm
-  line-width = 14.5\cm
+  line-width = 145.5\mm
   ragged-right = ##f
   line-width = #(- line-width (* mm 3.000000) (* mm 1))
 }
@@ -131,7 +131,7 @@ VoiceII = \relative do {
   sol8 fa mib re mib fa mib\prall re do do' si do |
   
   %bar 24 - 27
-  lab8\prall sol fa do' si do lab\prall sol fa do' si! do |
+  lab!8\prall sol fa do' si do sol\prall fa mib do' si! do |
   fa, sol lab re, sol fa mib16 sol do sol mib sol fa4 mib8 |
   re16 fa lab fa re fa si,4 sol'8 mib8 lab fa sol4 sol,8 |
   do,1._\fermata

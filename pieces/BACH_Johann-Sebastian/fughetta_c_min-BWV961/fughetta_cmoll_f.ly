@@ -1,5 +1,5 @@
 %! Title: Fughetta c-moll, BWV961
-%! Subtitle:
+%! Subtitle: Based on Busoni's edition
 %! Subsubtitle:
 %! Type: final
 %! Status: review
@@ -20,13 +20,17 @@
   % Set paper
   #(set-paper-size "b5")
   indent = 0\mm
-  line-width = 14.5\cm
+  line-width = 152\mm
   ragged-right = ##f
   line-width = #(- line-width (* mm 3.000000) (* mm 1))
 }
 
 \layout {
-  
+  \context {
+    \Score
+    \override SpacingSpanner.base-shortest-duration = #(ly:make-moment 1/8)
+    \override SpacingSpanner.uniform-stretching = ##t
+  }
 }
 
 %*****************************************
@@ -52,32 +56,32 @@ PieceName = ""
 VoiceI = \relative sol' {
   %bar 1 - 4
   R1.*3 |
-  sol8 la sib! do re mib re do sib la! sib do |
+  sol8( la sib! do re mib re do sib la! sib do |
   
   %bar 5 - 8
-  sib8\prall la sol sol' fad sol mib\prall re do sol' fad sol |
-  re\prall do sib sol' fad sol do, re mib la, re do |
-  sib16 re do mib re fa mib4.~\mordent mib8 re do re4.~\mordent |
-  re8 do si do re mib fa sol lab re, sol fa |
+  sib8\prall la sol) sol'\tenuto( fad sol mib\prall re do) sol'\tenuto( fad sol |
+  re\prall do sib) sol'\tenuto( fad sol do, re mib la, re do) |
+  sib16 re do mib re fa mib4.~\mordent( mib8 re do) re4.~\mordent( |
+  re8 do si) do( re mib fa sol lab re, sol fa) |
   
   %bar 9 - 12
-  mib8 fa sol do, fa mib re mib fa sib,! mib reb |
-  do4.\mordent re!4.\trill mib8 re do sib do lab |
+  mib8( fa sol do, fa mib) re( mib fa sib,! mib reb) |
+  do4.\mordent re!4.\trill mib8 re do sib do lab \bar "||"
   sol4 r4 r1 |
-  mib8 fa sol lab sib do sib lab sol fa sol lab |
+  mib8( fa sol lab sib do sib lab sol fa sol lab) |
   
   %bar 13 - 16
-  sol8 la sib do re mib re do sib la! sib do |
-  sib do re mib fa sol fa mib re do re mib |
+  sol8( la sib do re mib re do sib la! sib do) |
+  sib( do re mib fa sol fa mib re do re mib) |
   re16 fa mib sol fa lab! sol4 sib,8 lab sol lab~ lab fa'sol, |
   lab4.\prall \stemUp sol16 sib lab do sib reb 
   \stemNeutral do sib lab sol fa mi fa lab sol sib lab do |
   
   %bar 17 - 20
   sib16 lab sol fa mi re mi sol fa lab sol sib lab do fa do sib lab sol sib mi sib lab sol |
-  fa8 sol lab sib do reb do sib lab sol lab sib |
-  lab8\prall sol fa fa' mi fa reb\prall do sib fa' mi! fa |
-  do8\prall sib lab fa' mi! fa sib, do reb sol, do sib |
+  fa8( sol lab sib do reb do sib lab sol lab sib |
+  lab8\prall sol fa) fa'\tenuto( mi fa reb\prall do sib) fa'\tenuto( mi! fa |
+  do8\prall sib lab) fa'\tenuto( mi! fa sib, do reb sol, do sib) |
   
   %bar 21 - 23
   lab16 sol lab do re! mib! fa lab, fa' lab, fa' lab, sol fa sol sib do re mib re do sib lab sol |
@@ -95,9 +99,9 @@ VoiceI = \relative sol' {
 
 VoiceII = \relative do {
   %bar 1 - 4
-  do8 re mib fa sol lab sol fa mib re mib fa |
-  mib8\prall re do do' si do lab\prall sol fa do' si! do |
-  sol8\prall fa mib do' si do fa, sol lab re, sol fa |
+  do8( re mib fa sol lab sol fa mib re mib fa |
+  mib8\prall re do) do'\tenuto( si do lab\prall sol fa) do'\tenuto( si! do |
+  sol8\prall fa mib) do'\tenuto( si do fa, sol lab re, sol fa) |
   mib4.~ mib4 la,8 sib!4 do8 re4 re,8 |
   
   %bar 5 - 8
@@ -116,23 +120,23 @@ VoiceII = \relative do {
   %bar 13 - 16
   mib,4. mib'4 la,8 sib4 do8 re4 re,8 |
   sol4.~ sol8 la sib la4 sib8 mib4 fa8 |
-  sib,8 do re mib fa sol fa mib re do re mib |
-  re8 do sib mib fa sol lab sib do re, mi fa |
+  sib,8( do re mib fa sol fa mib re do re mib |
+  re8 do sib) mib( fa sol lab sib do) re,( mi fa |
   
   %bar 17 - 20
-  sol8 lab sib do, re mi fa lab reb sib sol do |
+  sol8 lab sib) do,( re mi fa lab reb sib sol do) |
   reb,4.~ reb4 sol,8 lab4 sib8 do4 do,8 |
   fa4. fa'8 sol lab sib4.~ sib8 lab sol |
   lab4.~ lab8 sol fa sol4 fa8 mi4 do8 |
   
   %bar 21 - 23
   fa4 mib!8 re!4 sib8 mib4 re8 do4 mib8 |
-  re4 do8 si4 sol8 do8 re mib fa sol lab! |
-  sol8 fa mib re mib fa mib\prall re do do' si do |
+  re4 do8 si4 sol8 do8( re mib fa sol lab! |
+  sol8 fa mib re mib fa mib\prall re do) do'\tenuto( si do |
   
   %bar 24 - 27
-  lab8\prall sol fa do' si do lab\prall sol fa do' si! do |
-  fa, sol lab re, sol fa mib16 sol do sol mib sol fa4 mib8 |
+  lab!8\prall sol fa) do'\tenuto( si do sol\prall fa mib) do'\tenuto( si! do |
+  fa, sol lab re, sol fa) mib16 sol do sol mib sol fa4 mib8 |
   re16 fa lab fa re fa si,4 sol'8 mib8 lab fa sol4 sol,8 |
   do,1._\fermata
   
