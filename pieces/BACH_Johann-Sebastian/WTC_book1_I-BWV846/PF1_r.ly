@@ -235,31 +235,41 @@ PreludeVoiceIII = \relative do' {
 
 
 FugueVoiceI = \relative sol' {
-  %bar 1 - 4
-  r1
+  %bar 1 - 5
+  r1 | r2 r8 sol8 la si |
+  do8. re32 do32 si8 mi la, re~ re16 mi re do |
+  si sol la si do si do re mi re mi fad sol8 si, |
+  do la re16 do si la sol8. sol16 fa mi fa sol |
+  
     
   %\bar "|."
 }
 
 FugueVoiceII = \relative do' {
-  %bar 1 - 4
+  %bar 1 - 5
   r8 do8 re mi fa8. sol32 fa32 mi8 la |
   re, sol~ sol16 la sol fa mi fa mi re do re do si |
+  la8 fad' sol4~ sol8 fad16 mi fad8 re |
+  sol fa! mi re do r r sol'~ |
+  sol fa16 mi fa4~ fa16 fa16 mi8 re4 |
+  
+  %\bar "|."
+}
+
+FugueVoiceIII = \relative sol {
+  %bar 1 - 5
+  r1 | r1 | r1 |
+  r8 sol la si do8. re32 do32 si8 mi |
+  la, re~ re16 mi re do si8 do~ do sib |
     
   %\bar "|."
 }
 
-FugueVoiceIII = \relative do {
-  %bar 1 - 4
-  do4
-    
-  %\bar "|."
-}
-
-FugueVoiceIV = \relative sol {
-  %bar 1 - 4
-  do4
-    
+FugueVoiceIV = \relative do {
+  %bar 1 - 5
+  s1 | s1 | s1 | s1 |
+  r2 r8 do re mi |
+  
   %\bar "|."
 }
 

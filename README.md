@@ -15,9 +15,8 @@ Feel free to share, comment and contribute!
 
 The repo is devided into 3 directories:
 
-- **original** : contains pieces originally written for keyboard instruments (harpsichord, organ, pianoforte)
-- **arrangements** : pieces arranged for piano
-- **collection** : my personal selection of works
+- **pieces** : single pieces
+- **collection** : collection based on the pieces
 
 ### Priority & preference
 
@@ -26,10 +25,9 @@ Here are some aesthetic rules that I create new scores:
 - Classical only
 - Educational pieces are encouraged
 - Fugue prioritized
-- Separated works not recommended
+- Rigorous and verification according to "Urtext"
 
-Contribution from the community is welcomed without limitation on the author or style, any classical music pieces will be accepted.
-
+Contribution from the community is welcomed, as well as suggestions and debates.
 
 
 
@@ -43,18 +41,17 @@ Contribution from the community is welcomed without limitation on the author or 
 
 #### 目錄和組織
 
-本項目有三個主要目錄:
+本項目有兩個主要目錄:
 
-- **original** : 原版鍵盤類曲目
-- **arrangements** : 改編曲目
-- **collection** : 精選曲目集合
+- **pieces** : 零散曲目
+- **collection** : 基於零散曲目編纂的曲集
 
 #### 曲目偏好
 
 - 僅限古典
 - 有教育意義的曲目優先
 - 賦格優先
-- 不建議零散曲目
+- 經過嚴謹的原版考證
 
-歡迎所有的貢獻，只要是古典樂就好.
+歡迎基於以上原則的貢獻,也歡迎提出異議,一起討論.
 
