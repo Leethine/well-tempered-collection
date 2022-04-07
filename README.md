@@ -5,7 +5,7 @@ Welcome to the _Well-Tempered Collection_, this is my music score collection for
 
 This repository is created to share the source codes of my favourite pieces during my piano learning process. You may consider this as my "self-made study book". As my level goes up, more pieces will be added and the difficulty will be increased.
 
-To facilitate other piano learners, I created json files in order to manage the library with [my automated tool](https://github.com/Leethine/hautbois-omslp).
+The metadata is added to the header of the .ly files. I will create a script for analyzing the header. 
 
 The benefit of Lilypond is obvious: it is robust and versatile, meaning that not only we can generate beautiful scores, but we will also be able to analyze the music source in a programmable way. Talk is cheap, let's see the code ;)
 
@@ -35,9 +35,11 @@ Contribution from the community is welcomed, as well as suggestions and debates.
 
 #### 簡介
 
-本項目是我在學習鋼琴過程中所遇到的曲目，製作成樂譜，以[Lilypond](https://lilypond.org/)源代碼的形式分享。這樣做的好處是方便日後對於樂譜的修改和維護。
+本項目是我在學習鋼琴過程中所遇到的曲目，製作成樂譜，以[Lilypond](https://lilypond.org/)源代碼的形式分享。
 
-每個曲集都有json文件用以描述樂譜的信息，可以配合自動化腳本使用，也便於日後擴增方便維護。
+Lilypond的好處是排版嚴謹,程序運行穩定,並且源代碼可見。
+
+樂譜的描述信息在.ly頭文件裡面，之後可以配合自動化腳本使用，以便於維護。
 
 #### 目錄和組織
 
