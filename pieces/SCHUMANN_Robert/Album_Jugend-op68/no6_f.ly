@@ -2,7 +2,7 @@
 %! Subtitle: No 6. Armes Waisenkind
 %! Subsubtitle:
 %! Type: final
-%! Status: working
+%! Status: review
 %! Remark: correctness and fingering
 
 \version "2.21.1"
@@ -49,49 +49,49 @@ PieceName = "Langsam"
 
 TrebleI = \relative la' {
   % bar 1 - 5
-  s4. la16 si | 
-  <do la>8\staccato[ <si sold>\staccato la\staccato] la16 si | 
-  <do la>8\staccato[ <re si>\staccato <mi do>\staccato] mi16. fa32 |
-  <mi sol>4 <fa re> |
-  si,4. la16 si |
+  s4. la16( \p si) |
+  <do la>8\staccato[( <si sold>\staccato la\staccato]) la16( si) | 
+  <do la>8\staccato[( <re si>\staccato <mi do>\staccato]) mi16. \< ( fa32 |
+  <mi sol>4 <fa re> \! \> |
+  si,4.) \! la16( si) |
   
   % bar 6 - 9
-  <do la>8\staccato[ <si sold>\staccato la\staccato] la16 si | 
-  <do la>8\staccato[ <re si>\staccato <mi do>\staccato] mi16. fa32 |
-  <mi sol>4 <fa re> |
+  <do la>8\staccato[( <si sold>\staccato la\staccato]) la16( si) | 
+  <do la>8\staccato[( <re si>\staccato <mi do>\staccato]) mi16.( \< fa32 |
+  <mi sol>4 <fa re>) \! \> |
   <<
   {
     \voiceOne
-    si,8. do16 la8
+    si,8.( \! do16 la8)
   }
   \new Voice {
     \voiceTwo
-    sold4 la8
+    sold4 \> la8 \!
   }
   >>
   
   \bar "||" <sold! mi>16 <la mi> |
   
   % bar 10 - 12
-  <si mi,>8\staccato[ <do mi,>\staccato <re mi,>\staccato fa!\staccato] |
-  mi\staccato <do mi,>\staccato <si mi,> <sold mi>16[ <la mi>] |
-  <si mi,>8\staccato[ <do mi,>\staccato <re mi,>\staccato <fa! la,>\staccato] |
-  <si, sold>4. <la mi>16 <si sold> |
+  <si mi,>8\staccato[( <do mi,>\staccato <re mi,>\staccato fa!\staccato]) |
+  mi\staccato( <do mi,>\staccato) <si mi,> <sold mi>16[ <la mi>] |
+  <si mi,>8\staccato \< [( <do mi,>\staccato <re mi,>\staccato <fa! la,>\staccato]) \! |
+  <si, sold>4. \> <la mi>16 \! ( <si sold>) |
   
   % bar 13 - 19
-  <do la>8\staccato[ <si sold>\staccato la\staccato] la16 si | 
-  <do la>8\staccato[ <re si>\staccato <mi do>\staccato] \stemNeutral mi16 fa16 |
-  <mi sol>4 <fa re> |
-  si,4. la16 si |
-  <do la>8\staccato[ <si sold>\staccato la\staccato] la16 si | 
-  <do la>8\staccato[ <re si>\staccato <mi do>\staccato] mi16 fa |
-  <mi sol>4 <fa re> |
+  <do la>8\staccato[( <si sold>\staccato la\staccato]) la16( si) | 
+  <do la>8\staccato[( <re si>\staccato <mi do>\staccato]) \stemNeutral mi16( \< fa16 |
+  <mi sol>4 \! \> <fa re> \! |
+  si,4.) la16( si) |
+  <do la>8\staccato[( <si sold>\staccato la\staccato]) la16( si) | 
+  <do la>8\staccato[( <re si>\staccato <mi do>\staccato]) mi16( \< fa |
+  <mi sol>4 \! \> <fa re>) \! |
   
   % bar 21 - 25
   <<
   {
     \voiceOne
-    si,8. do16 la8
+    si,8. \> ( do16 la8) \!
   }
   \new Voice {
     \voiceTwo
@@ -99,29 +99,29 @@ TrebleI = \relative la' {
   }
   >>
   <sold mi>16[ <la mi>] |
-  <si mi,>8\staccato[ <do mi,>\staccato <re mi,>\staccato fa!\staccato] |
-  mi\staccato <do mi,>\staccato <si mi,> <sold mi>16[ <la mi>] |
-  <si mi,>8\staccato[ <do mi,>\staccato <re mi,>\staccato <fa! la,>\staccato] |
-  <si, sold>4. <la mi>16 <si sold> |
+  <si mi,>8\staccato[( <do mi,>\staccato <re mi,>\staccato fa!\staccato]) |
+  mi\staccato( <do mi,>\staccato) <si mi,> <sold mi>16[ <la mi>] |
+  <si mi,>8\staccato[( \< <do mi,>\staccato <re mi,>\staccato <fa! la,>\staccato]) \! |
+  <si, sold>4. \> <la mi>16( \! <si sold>) |
   
   % bar 26 -33
-  <do la>8\staccato[ <si sold>\staccato la\staccato] la16 si | 
-  <do la>8\staccato[ <re si>\staccato <mi do>\staccato] \stemNeutral mi16 fa16 |
-  <mi sol>4 <fa re> |
-  si,4. la16 si |
-  <do la>8\staccato[ <si sold>\staccato la\staccato] la16 si | 
-  <do la>8\staccato[ <re si>\staccato <mi do>\staccato] mi16 fa |
-  <mi sol>4 <fa re> |
+  <do la>8\staccato[( <si sold>\staccato la\staccato]) la16( si) | 
+  <do la>8\staccato[( <re si>\staccato <mi do>\staccato]) \stemNeutral mi16( \< fa16 |
+  <mi sol>4 \! \> <fa re> \! |
+  si,4.) la16( si) |
+  <do la>8\staccato[( <si sold>\staccato la\staccato]) la16( si) | 
+  <do la>8\staccato[( <re si>\staccato <mi do>\staccato]) mi16( \< fa |
+  <mi sol>4 \! \> <fa re>) \! |
   <<
   {
     \voiceOne
-    si,8. do16 la8
+    si,8.( \> do16 \! la8)
   }
   \new Voice {
     \voiceTwo
     sold4 la8
   }
-  >>
+  >> s8 |
   
   \bar ".|"
 }
@@ -130,13 +130,13 @@ TrebleI = \relative la' {
 BassoI = \relative mi' {
   % bar 1 - 5
   s4. r8 |
-  <mi la,>8\staccato[ <re mi,>\staccato <do la>\staccato ] r |
-  <mi la,>8\staccato[ <sol! sol,!>\staccato <mi do>\staccato ] r |
+  <mi la,>8\staccato[( <re mi,>\staccato <do la>\staccato]) r |
+  <mi la,>8\staccato[( <sol! sol,!>\staccato <mi do>\staccato]) r |
   \clef "treble"
   <<
   {
     \voiceOne
-    do'4 si8. la16 |
+    do'4( si8. la16) |
     sold4.
   }
   \new Voice {
@@ -149,44 +149,44 @@ BassoI = \relative mi' {
   % bar 6 - 9
   \clef "bass"
   \stemNeutral
-  <mi, la,>8\staccato[ <re mi,>\staccato <do la>\staccato ] r |
-  <mi la,>8\staccato[ <sol! sol,!>\staccato <mi do>\staccato ] r |
+  <mi, la,>8\staccato[( <re mi,>\staccato <do la>\staccato]) r |
+  <mi la,>8\staccato[( <sol! sol,!>\staccato <mi do>\staccato]) r |
   \clef "treble"
   <<
   {
     \voiceOne
-    do'4 si8. la16 |
-    mi8. re16 do8
+    do'4( si8. la16) |
+    mi8.( re16 do8)
   }
   \new Voice {
     \voiceTwo
     do4 re4 |
-    mi8. s16 la,8 
+    mi8. s16 la,8
   }
   >> \bar "||" \clef "bass" \stemNeutral mi16 fad |
   
   % bar 10 - 12
-  sold8\staccato[ la\staccato si\staccato <mi re>\staccato] |
-  <mi do>\staccato <do la>\staccato <si sold> mi,16[ fa] |
+  sold8\staccato[( la\staccato si\staccato <mi re>\staccato]) |
+  <mi do>\staccato( <do la>\staccato) <si sold> mi,16[ fa] |
   <<
   {
     \voiceOne
-    s8 s8 s8 do'8
+    s8 s8 s8 do'8(
   }
   \new Voice {
     \voiceTwo
     sold8[ la si la16 si16]
   }
   >>
-  \stemNeutral mi4~ mi16 re do si |
+  \stemNeutral mi4~)( mi16 re do si) |
   
   % bar 13 - 18
-  la8\staccato[ <re mi,>\staccato <do la>\staccato] r |
-  <mi la,>\staccato[ <sol! sol,!>\staccato <sol do,>\staccato] r |
+  la8\staccato[( <re mi,>\staccato <do la>\staccato]) r |
+  <mi la,>\staccato[( <sol! sol,!>\staccato <sol do,>\staccato]) r |
   \clef "treble"
   <<
   {  \voiceOne
-     do4 si8. la16 | sold4.
+     do4( si8. la16) | sold4.
   }
   \\
   \new Voice
@@ -198,14 +198,14 @@ BassoI = \relative mi' {
   sol8\rest |
   
   \clef "bass"
-  <mi la,>8\staccato[ <re mi,>\staccato <do la>\staccato] r |
-  <mi la,>\staccato[ <sol! sol,!>\staccato <sol do,>\staccato] r |
+  <mi la,>8\staccato[( <re mi,>\staccato <do la>\staccato]) r |
+  <mi la,>\staccato[( <sol! sol,!>\staccato <sol do,>\staccato]) r |
   
   % bar 19 - 25
   \clef "treble"
   <<
   {  \voiceOne
-     do4 si8. la16 | mi8. re16 do8
+     do4( si8. la16) | mi8.( re16 do8)
   }
   \\
   \new Voice
@@ -216,8 +216,8 @@ BassoI = \relative mi' {
   >>
   \clef "bass"
   mi16 fad |
-  sold8\staccato[ la\staccato si\staccato <re mi>\staccato]
-  <mi do>\staccato[ <do la>\staccato] <si sold> mi,16[ fad] |
+  sold8\staccato[( la\staccato si\staccato <re mi>\staccato])
+  <mi do>\staccato[( <do la>\staccato]) <si sold> mi,16[ fad] |
   <<
   { \voiceOne
     s4. mi'8
@@ -225,18 +225,18 @@ BassoI = \relative mi' {
   \\
   \new Voice
   { \voiceTwo
-    sold,8 la si do16 re
+    sold,8 la si do16( re)
   }
   >> |
-  mi4~ mi16 re do si |
-  la8\staccato[ <re mi,>\staccato <do la>\staccato] r |
+  mi4~( mi16 re do si) |
+  la8\staccato[( <re mi,>\staccato <do la>\staccato]) r |
   
   % bar 26 - 32
-  <mi la,>\staccato[ <sol! sol,!>\staccato <sol do,>\staccato] r |
+  <mi la,>\staccato[( <sol! sol,!>\staccato <sol do,>\staccato]) r |
   \clef "treble"
   <<
   {  \voiceOne
-     do4 si8. la16 | sold4.
+     do4( si8. la16) | sold4.
   }
   \\
   \new Voice
@@ -248,13 +248,13 @@ BassoI = \relative mi' {
   sol8\rest |
   
   \clef "bass"
-  <mi la,>8\staccato[ <re mi,>\staccato <do la>\staccato] r |
-  <mi la,>\staccato[ <sol! sol,!>\staccato <sol do,>\staccato] r 
+  <mi la,>8\staccato[( <re mi,>\staccato <do la>\staccato]) r |
+  <mi la,>\staccato[( <sol! sol,!>\staccato <sol do,>\staccato]) r 
   
   \clef "treble"
   <<
   {  \voiceOne
-     do4 si8. la16 | mi8. re16 do8
+     do4( si8. la16) | mi8.( re16 do8)
   }
   \\
   \new Voice
@@ -262,7 +262,7 @@ BassoI = \relative mi' {
     \voiceTwo
     do4 re | s4 la8
   }
-  >>
+  >> s8 |
   
   \bar ".|"
 }
