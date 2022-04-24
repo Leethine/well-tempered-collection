@@ -109,10 +109,10 @@ PedalI = \relative la, {
   
   % bar 6 - 11
   do si la | re la' sol | fa mi re |
-  dod la re | re dod1 | re1. | 
+  dod la re~ | re dod1 | re1. | 
   
   % bar 12 - 16
-  r1. | r1. | r1. | r1. | fa2 mi re | 
+  r1. | r1. | r1. | re1 mi2 | fa2 mi re | 
   
   % bar 17 - 21
   dod1 re2 | la1.~ | la1.~ | la1. | 
