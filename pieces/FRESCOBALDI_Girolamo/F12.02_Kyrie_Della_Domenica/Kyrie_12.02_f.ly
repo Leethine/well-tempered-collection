@@ -1,4 +1,4 @@
-%! Title: KYRIE Alio modo 
+%! Title: KYRIE della Domenica
 %! Subtitle: de Fiori Musicali
 %! Subsubtitle:
 %! Type: final
