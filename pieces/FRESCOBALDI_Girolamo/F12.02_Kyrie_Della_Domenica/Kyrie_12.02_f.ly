@@ -98,7 +98,7 @@ ManualII = \relative re' {
   
   % bar 13 : additional
   \once \override NoteHead.style = #'baroque
-  sol\breve*1 |
+  la\breve*1 |
   
   \bar "|."
 }

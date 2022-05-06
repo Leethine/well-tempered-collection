@@ -100,7 +100,7 @@ ManualII = \relative la {
 ManualIII = \relative la {
   % bar 1 - 4
   la1 sib2 la | sol1 fa2 la~ |
-  la fad la do~ | do si1 la2~ |
+  la sold la do~ | do si1 la2~ |
   
   % bar 5 - 8
   la sold la1 | r1*2 |
