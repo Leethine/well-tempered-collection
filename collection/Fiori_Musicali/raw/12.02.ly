@@ -106,7 +106,7 @@ PieceIIT = \relative la {
   % bar 1 - 3
   r2 la2~ la4 sol8 fa sol2 |
   re'4 do8 si la4 si do sol do2 |
-  la r4 la4~ la sol8 fa sol2 |
+  fa, r4 la4~ la sol8 fa sol2 |
   
   % bar 4 - 6
   la1 r1 | r1*2 |

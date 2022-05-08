@@ -110,7 +110,7 @@ PieceIIT = \relative la {
   % bar 1 - 3
   fa2\rest \stemDown la2~ la4 sol8 fa sol2 |
   re'4 do8 si la4 si do sol do2 |
-  \stemUp la r4 la4~ la \once \stemDown sol8 \once \stemDown fa sol2 |
+  \stemUp fa, la4\rest la4~ la \once \stemDown sol8 \once \stemDown fa sol2 |
   
   % bar 4 - 6
   la1 r1 | r1*2 |
