@@ -30,7 +30,6 @@
     \Score
     %\override SpacingSpanner.base-shortest-duration = #(ly:make-moment 1/16)
     %\override SpacingSpanner.uniform-stretching = ##t
-    
   }
 }
 

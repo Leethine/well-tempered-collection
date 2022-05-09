@@ -151,8 +151,11 @@ VoiceIII = \relative la' {
   \bar ":|."
   
   % bar 7 - 9
+  
   % bar 10 - 12
+  
   % bar 13 - 15
+  
   % bar 16 - 18
 }
 
