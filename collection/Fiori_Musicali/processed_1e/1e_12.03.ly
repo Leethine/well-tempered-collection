@@ -48,21 +48,21 @@
 MyMeter = \time 8/4
 MyTempo = \tempo "Adantino"
 MyKey = \key do \major
-PieceName = "KYRIE"
+PieceName = "Kyrie"
 
 PieceIIIS = \relative la' {
   % bar 1 - 4
-  r1*2 | r1*2 | s1*2 | r1*2 |
+  si1*2\rest | si1*2\rest | re1*2\rest | si1*2\rest |
   
   % bar 5 - 8
-  r1 la1 | sib2 la1 sol2 |
+  si1\rest la1 | sib2 la1 sol2 |
   \once \override NoteHead.style = #'baroque
   la\breve*1 | 
   re2\rest la do re |
   
   % bar 9 - 12
   mi2 fa4 mi re1 | do1 si1 |
-  la1 r2 la2~ | la sib la sol |
+  la1 re2\rest la2~ | la sib la sol |
   
   % bar 13 - 16
   la1 re,1 | re2 fa sol la |
@@ -77,19 +77,19 @@ PieceIIIS = \relative la' {
 
 PieceIIIA = \relative la {
   % bar 1 - 4
-  r1*2 | r1 la2 \once \stemUp do |
+  do1*2\rest | do1\rest la2 \once \stemUp do |
   \once \stemUp re2. mi4 \once \stemUp fa2 \once \stemUp mi | \once \stemUp re1 do1 |
   
   % bar 5 - 8
-  \once \stemUp si1 la2 r2 | re fa1 re2 |
-  do2 re r1 | mi2 fa~ fa4 mi \change Staff=down \stemUp re2 |
+  \once \stemUp si1 la2 do2\rest | re fa1 re2 |
+  do2 re \change Staff=down fa,1\rest \change Staff=up \stemDown | mi'2 fa~ fa4 mi \change Staff=down \stemUp re2 |
   
   % bar 9 - 12
-  do1 si! \change Staff=up \stemDown | mi r |
-  la,2 do re mi | fa1 \change Staff=down \stemUp do4\rest la \change Staff=up \stemDown sib2 |
+  do1 si! \change Staff=up \stemDown | mi1 do1\rest |
+  la2 do re mi | fa1 \change Staff=down \stemUp do4\rest la \change Staff=up \stemDown sib2 |
   
   % bar 13 - 16
-  \change Staff=down \stemUp la2 \change Staff=up \stemDown re4 do sib la sib2 | r2 re1 fa2 |
+  \change Staff=down \stemUp la2 \change Staff=up \stemDown re4 do sib la sib2 | sol2\rest re'1 fa2 |
   re dod re1~ | re2 dod4 si dod re2 dod4 |
   
   % bar additional
@@ -101,22 +101,22 @@ PieceIIIA = \relative la {
 
 PieceIIIT = \relative la {
   % bar 1 - 4
-  la1 sib2 la | sol1 fa2 \change Staff=up \once \stemDown la~ |
-  \once \stemDown la \change Staff=down sold \change Staff=up \stemDown la do~ | do si1 la2~ |
+  la1 sib2 la | sol1 fa2 \change Staff=up \once \stemDown la_( |
+  \once \stemDown la) \change Staff=down sold \change Staff=up \stemDown la do_( | do) si1 la2_( |
   
   % bar 5 - 8
-  la \change Staff=down \stemUp sold la1 | r1*2 |
-  r2 la \change Staff=up \stemDown do re \change Staff=down \stemUp | r1 la2 sib~ |
+  la) \change Staff=down \stemUp sold la1 | do1*2\rest |
+  do2\rest la \change Staff=up \stemDown do re \change Staff=down \stemUp | fa,1\rest la2 \once \stemDown sib_( |
   
   % bar 9 - 12
-  \once \stemDown sib2 la1 \once \stemDown sold2 | la4 mi la1 sold2 |
+  \once \stemDown \once\omit Accidental sib2) la1 \once \stemDown sold2 | la4 mi la1 sold2 |
   \once \override NoteHead.style = #'baroque
   la\breve*1 |
-  r2 re, \once \stemDown fa \once \stemDown sol~ |
+  la2\rest re, \once \stemDown fa \once \stemDown sol~ |
   
   % bar 13 - 16
   \once \stemDown sol fad sol1 | re1 \change Staff=up \stemDown sib'2 \change Staff=down \stemUp la |
-  r2 la sib1 | la2 sol~ sol4 fa mi la |
+  re2\rest la sib1 | la2 sol~ sol4 fa mi la |
   
   % bar additional
   \once \override NoteHead.style = #'baroque
@@ -127,12 +127,12 @@ PieceIIIT = \relative la {
 
 PieceIIIB = \relative re {
   % bar 1 - 4
-  r2 re1 fa2~ | fa mi re do |
+  si2\rest re1 fa2~ | fa mi re do |
   si1 la2 la'4 sol | fa mi re2 mi do |
   
   % bar 5 - 8
   re mi fa4 mi fa2 | sol la sib1 |
-  la2 fa1 mi4 re | dod2 re r1 |
+  la2 fa1 mi4 re | dod2 re sol,1\rest |
   
   % bar 9 - 12
   s1*2 | la2 do re mi |
@@ -141,7 +141,7 @@ PieceIIIB = \relative re {
   re\breve*1~ |
   
   % bar 13 - 16
-  re1 r2 sol, | sib2. la4 sol2 re' |
+  re1 sol,2\rest sol | sib2. la4 sol2 re' |
   sol la re, mi | fa sol4 sol, la1 |
   
   % bar additional

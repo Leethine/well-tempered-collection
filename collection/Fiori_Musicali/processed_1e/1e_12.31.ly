@@ -93,11 +93,12 @@ PieceXXXIS = \relative si' {
 PieceXXXIA = \relative sol' {
   % bar 1 - 4
   sold1~ sold4 la2 sold4 |
-  la2 r4 la4~ la4 sol8 fad sol2 |
+  la2 fa4\rest la4~ la4 sol8 fad sol2 |
   mi1. mi2 | re2. do4 sib1 |
   
   % bar 5 - 8
-  \change Staff=down \stemDown la1 si2 la2 \change Staff=up \stemDown | si4\rest mi2 re8. do16 \change Staff=down \stemUp si2 \change Staff=up \stemDown mi~ |
+  \change Staff=down \stemDown la1 si2 la2 \change Staff=up \stemDown |
+  si4\rest mi2 re8. do16 \change Staff=down \stemUp si2 \change Staff=up \stemDown mi~ |
   mi re4 do re2 dod2 | re1 \change Staff=down \stemDown la |
   
   % bar 9 - 12
@@ -153,7 +154,7 @@ PieceXXXIT = \relative mi' {
   la2. sol4~ sol4 fad8 mi fad2 |
   
   % bar 17 - 20
-  sol1 r1 | r1 r2. fa4~ |
+  sol1 si1\rest | si1\rest si2.\rest fa4~ |
   fa4 mi8 fa16 sol dod,4 la'~ la8 si16 do fad,8 sol16 la r4 do~ |
   do8 re16 mi la,8 si16 do si4 do4~ do si8 la si2~ |
   
@@ -194,7 +195,7 @@ PieceXXXIB = \relative mi {
   % bar 17 - 20
   sol,2 sol'~ sol fa |
   mi fa~ fa8 sol16 la dod,8 re16 mi la,2 |
-  sol2 r2 re' mi | fa sol sol1 |
+  sol2 mi2\rest re' mi | fa sol sol1 |
   
   % bar 21 - 24
   do,2. si8 la si1 | sol1 mi |

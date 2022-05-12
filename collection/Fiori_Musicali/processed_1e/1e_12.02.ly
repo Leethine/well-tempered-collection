@@ -80,7 +80,7 @@ PieceIIS = \relative la' {
 
 PieceIIA = \relative re' {
   % bar 1 - 3
-  r1 r4 re re mi |
+  do1\rest do4\rest re re mi |
   fa re fa2~ fa4 mi8 re mi2 |
   fa4 mi8 re dod2 r2 re2~ |
   
@@ -90,8 +90,8 @@ PieceIIA = \relative re' {
   fa4 re fa1 mi2~ |
   
   % bar 7 - 9
-  mi4 re8 do re2 r1 |
-  r4 la la si do si la sol |
+  mi4 re8 do re2 sol,1\rest |
+  re4\rest la' la si do si la sol |
   fa2 sol la fa\rest |
   
   % bar 10 - 12
@@ -113,13 +113,13 @@ PieceIIT = \relative la {
   \stemUp fa, la4\rest la4~ la \once \stemDown sol8 \once \stemDown fa sol2 |
   
   % bar 4 - 6
-  la1 r1 | r1*2 |
+  la1 re1\rest | s1*2 |
   si4\rest \stemDown la4 la si do si8 la sol4 do |
   
   % bar 7 - 9
   \stemUp la2 sib4 la sol2 la4 sol |
   fa2. mi8 re la'2 mi |
-  r4 re re mi fa2 re |
+  la4\rest re, re mi fa2 re |
   
   % bar 10 - 12
   sol fa4 mi re1 |
@@ -135,7 +135,7 @@ PieceIIT = \relative la {
 
 PieceIIB = \relative la, {
   % bar 1 - 3
-  sol1*2\rest | sol1*2\rest | si2\rest la2 sib1 |
+  sol1*2\rest | sol1*2\rest | sol2\rest la2 sib1 |
   
   % bar 4 - 6
   la2 la' sib la4 sol |
@@ -144,7 +144,7 @@ PieceIIB = \relative la, {
   
   % bar 7 - 9
   si'2\rest re2~ re4 dod8 si dod2 |
-  re1 r2 la2 |
+  re1 si2\rest la2 |
   sib2. la8 sol re'4 do sib la |
   
   % bar 10 - 12
