@@ -131,7 +131,7 @@ PieceIIIB = \relative re {
   si1 la2 la'4 sol | fa mi re2 mi do |
   
   % bar 5 - 8
-  re mi fa4 mi fa2 | sol la sib1 |
+  re mi fa4 re fa2 | sol la sib1 |
   la2 fa1 mi4 re | dod2 re sol,1\rest |
   
   % bar 9 - 12

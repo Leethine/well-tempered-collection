@@ -53,7 +53,7 @@ PieceXXXIS = \relative si' {
   
   % bar 5 - 8
   r2 re'2~ re8. mi16 re8. mi16 re8. do16 si la sol fad |
-  sold2 la sib2. la8.\trill sold16 | la1 sol1~ |
+  sold2 la si2. la8.\trill sold16 | la1 sol1~ |
   sol2 fa8. sol16 fa8. sol16 la8. si16 la8. si16 do8 la si do |
   
   % bar 9 - 12
