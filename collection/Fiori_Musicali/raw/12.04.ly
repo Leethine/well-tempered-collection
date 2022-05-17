@@ -62,7 +62,7 @@ PieceIVS = \relative la' {
   
   % bar 10 - 12
   fad2 sol1 fad2 |
-  sol r4 sib2. la4 sol |
+  sol r4 re,4 sib'2. la8 sol |
   fa4 sol la1 r2 |
   
   % bar 13 - 15

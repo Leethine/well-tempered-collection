@@ -80,7 +80,7 @@ PieceVIA = \relative re' {
   % bar 16 - 20
   la1. | r1. | r2 sol1 | sib1 la2 | sib1. |
   \once \override NoteHead.style = #'baroque
-  sib\breve*1/2 s2 |
+  la\breve*1/2 s2 |
   
   \bar "|."
 }

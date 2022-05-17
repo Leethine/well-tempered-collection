@@ -48,6 +48,7 @@ MyMeter = \time 8/4
 MyTempo = \tempo "Adantino"
 MyKey = \key do \major
 PieceName = "Christe"
+MyFinalBar = \bar "||"
 
 PieceIVS = \relative la' {
   % bar 1 - 3
@@ -65,7 +66,7 @@ PieceIVS = \relative la' {
   
   % bar 10 - 12
   fad2 sol1 fad2 |
-  sol do4\rest sib2. la4 sol |
+  sol do4\rest re,4 sib'2. la8 sol |
   fa4 sol la1 re2\rest |
   
   % bar 13 - 15
@@ -74,7 +75,7 @@ PieceIVS = \relative la' {
   \once \override NoteHead.style = #'baroque
   fad\breve*1 |
   
-  \bar "|."
+  \MyFinalBar
 }
 
 PieceIVA = \relative re' {
@@ -92,7 +93,7 @@ PieceIVA = \relative re' {
   mi2 re re1 |
   
   % bar 10 - 12
-  \change Staff=down la4\rest la sib2~ sib4 la8 sol la4 \change Staff=up re |
+  \change Staff=down la4\rest la sib2^( sib4) la8 sol la4 \change Staff=up re |
   sib4 do re2 re1 |
   la2.\rest re4 fa2. mi8 re |
   
@@ -102,7 +103,7 @@ PieceIVA = \relative re' {
   \once \override NoteHead.style = #'baroque
   re\breve*1 |
   
-  \bar "|."
+  \MyFinalBar
 }
 
 PieceIVT = \relative la {
@@ -133,7 +134,7 @@ PieceIVT = \relative la {
   \once \override NoteHead.style = #'baroque
   re\breve*1) |
   
-  \bar "|."
+  \MyFinalBar
 }
 
 PieceIVB = \relative re {
@@ -152,15 +153,15 @@ PieceIVB = \relative re {
   
   % bar 10 - 12
   sol,1*2\rest | sol2 sib~ sib4 la8 sol sib4 do |
-  re mi fa sol la fa sib2~ |
+  re mi fa sol la fa sib2_( |
   
   % bar 13 - 15
-  sib4 la8 sol fad2 re1\rest |
+  sib4) la8 sol fad2 re1\rest |
   si'4\rest la sib1 la4 sol
   \once \override NoteHead.style = #'baroque
   la\breve*1 |
   
-  \bar "|."
+  \MyFinalBar
 }
 
 %*****************************************

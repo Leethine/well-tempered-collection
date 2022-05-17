@@ -49,6 +49,7 @@ MyMeter = \time 8/4
 MyTempo = \tempo "Adantino"
 MyKey = \key do \major
 PieceName = "Kyrie della Domenica"
+MyFinalBar = \bar "||"
 
 PieceIIS = \relative la' {
   % bar 1 - 3
@@ -75,7 +76,7 @@ PieceIIS = \relative la' {
   \once \override NoteHead.style = #'baroque
   re\breve*1~ |
   
-  \bar "|."
+  \MyFinalBar
 }
 
 PieceIIA = \relative re' {
@@ -103,7 +104,7 @@ PieceIIA = \relative re' {
   \once \override NoteHead.style = #'baroque
   la\breve*1 |
   
-  \bar "|."
+  \MyFinalBar
 }
 
 PieceIIT = \relative la {
@@ -130,7 +131,7 @@ PieceIIT = \relative la {
   \once \override NoteHead.style = #'baroque
   fad\breve*1 |
   
-  \bar "|."
+  \MyFinalBar
 }
 
 PieceIIB = \relative la, {
@@ -156,7 +157,7 @@ PieceIIB = \relative la, {
   \once \override NoteHead.style = #'baroque
   re\breve*1 |
   
-  \bar "|."
+  \MyFinalBar
 }
 
 %*****************************************

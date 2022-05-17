@@ -49,6 +49,7 @@ MyMeter = \time 4/2
 MyTempo = \tempo "Adantino"
 MyKey = \key do \major
 PieceName = "Toccata avanti la messa della Domenica"
+MyFinalBar = \bar "||"
 
 PieceIS = \relative re'' {
   % bar 1 - 3
@@ -67,7 +68,7 @@ PieceIS = \relative re'' {
   \once \override NoteHead.style = #'baroque
   re\breve*1/2 |
   
-  \bar "|."
+  \MyFinalBar
 }
 
 PieceIA = \relative la' {
@@ -82,12 +83,12 @@ PieceIA = \relative la' {
   sol4 re dod re~ re la'4. sol16 fa sol mi8. |
   
   % bar 7 - 8
-  fad2 do16\rest re mi dod re4~ re do16\rest do re si! do4 re~ |
+  fad2 do16\rest re mi dod re4~ re do16\rest dod re si! dod4 re~ |
   re16 dod re mi fa2 mi4
   \once \override NoteHead.style = #'baroque
   fad\breve*1/2 |
   
-  \bar "|."
+  \MyFinalBar
 }
 
 PieceIT = \relative fa' {
@@ -107,7 +108,7 @@ PieceIT = \relative fa' {
   \once \override NoteHead.style = #'baroque
   la\breve*1/2 |
   
-  \bar "|."
+  \MyFinalBar
 }
 
 PieceIB = \relative re {
@@ -126,7 +127,7 @@ PieceIB = \relative re {
   la1 \once \override NoteHead.style = #'baroque
   re\breve*1/2 |
   
-  \bar "|."
+  \MyFinalBar
 }
 
 %*****************************************

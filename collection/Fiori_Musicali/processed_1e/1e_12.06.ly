@@ -48,6 +48,7 @@ MyMeter = \time 3/2
 MyTempo = \tempo "Adantino"
 MyKey = \key do \major
 PieceName = "Christe alio Modo"
+MyFinalBar = \bar "||"
 
 PieceVIS = \relative la' {
   % bar 1	- 5
@@ -64,7 +65,7 @@ PieceVIS = \relative la' {
   \once \override NoteHead.style = #'baroque
   re\breve*1/2 s2|
   
-  \bar "|."
+  \MyFinalBar
 }
 
 PieceVIA = \relative re' {
@@ -81,11 +82,11 @@ PieceVIA = \relative re' {
   do4 si8 la sol2. la4 | sib1 sol2 |
   
   % bar 16 - 20
-  la1. | do,,1.\rest | si'2\rest sol'1 | sib1 la2 | sib1. |
+  la1. | do,,1.\rest | re'2\rest sol1 | sib1 \once \stemUp la2 | sib1. |
   \once \override NoteHead.style = #'baroque
-  sib\breve*1/2 s2 |
+  la\breve*1/2 s2 |
   
-  \bar "|."
+  \MyFinalBar
 }
 
 PieceVIT = \relative la {
@@ -109,7 +110,7 @@ PieceVIT = \relative la {
   \once \override NoteHead.style = #'baroque
   fad\breve*1/2 s2 |
   
-  \bar "|."
+  \MyFinalBar
 }
 
 PieceVIB = \relative re {
@@ -133,7 +134,7 @@ PieceVIB = \relative re {
   \once \override NoteHead.style = #'baroque
   re'\breve*1/2 s2 |
   
-  \bar "|."
+  \MyFinalBar
 }
 
 %*****************************************

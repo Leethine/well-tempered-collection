@@ -48,10 +48,11 @@ MyMeter = \time 4/2
 MyTempo = \tempo "Adantino"
 MyKey = \key do \major
 PieceName = "Christe alio Modo"
+MyFinalBar = \bar "||"
 
 PieceVS = \relative la' {
   % bar 1 - 4
-  si1*2\rest |
+  s1*2 |
   re4\rest la8 si do re mi do fa mi re do16 re mi8 re do re |
   sib2 la si2.\rest la4~ |
   la4 sol2 fa4~ fa mi2 re4~ |
@@ -63,7 +64,7 @@ PieceVS = \relative la' {
   \once \override NoteHead.style = #'baroque
   re\breve*1/2 |
   
-  \bar "|."
+  \MyFinalBar
 }
 
 PieceVA = \relative re' {
@@ -79,12 +80,12 @@ PieceVA = \relative re' {
   \once \override NoteHead.style = #'baroque
   la\breve*1/2 |
   
-  \bar "|."
+  \MyFinalBar
 }
 
 PieceVT = \relative re {
   % bar 1 - 4
-  fa2\rest re8 mi fa sol la mi la sol16 fa mi8 fa sol mi |
+  re2\rest re8 mi fa sol la mi la sol16 fa mi8 fa sol mi |
   la2 \change Staff=up mi'2\rest do1\rest \change Staff=down | re2\rest la2 sol fa |
   mi2 re do \once \stemDown re |
   
@@ -95,12 +96,12 @@ PieceVT = \relative re {
   \once \override NoteHead.style = #'baroque
   fad\breve*1/2 |
   
-  \bar "|."
+  \MyFinalBar
 }
 
 PieceVB = \relative fa {
   % bar 1 - 4
-  sol,1*2\rest | si4\rest fa'8 sol la si do4~ do sib2 la4 |
+  s1*2 | si,4\rest fa'8 sol la si do4~ do sib2 la4 |
   sol8 sol, sib do re mi fa4 mi2 re | r1*2 |
   
   % bar 5 - 7
@@ -110,7 +111,7 @@ PieceVB = \relative fa {
   \once \override NoteHead.style = #'baroque
   re\breve*1/2 |
   
-  \bar "|."
+  \MyFinalBar
 }
 
 %*****************************************

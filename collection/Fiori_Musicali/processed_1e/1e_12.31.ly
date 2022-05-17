@@ -48,6 +48,7 @@ MyMeter = \time 4/2
 MyTempo = \tempo "Adantino"
 MyKey = \key do \major
 PieceName = "Toccata per l'Elevazione"
+MyFinalBar = \bar "||"
 
 PieceXXXIS = \relative si' {
   % bar 1 - 4
@@ -87,7 +88,7 @@ PieceXXXIS = \relative si' {
   \once \override NoteHead.style = #'baroque
   sold\breve*1/2~ |
   
-  \bar "|."
+  \MyFinalBar
 }
 
 PieceXXXIA = \relative sol' {
@@ -127,7 +128,7 @@ PieceXXXIA = \relative sol' {
   \once \override NoteHead.style = #'baroque
   si\breve*1/2~ |
   
-  \bar "|."
+  \MyFinalBar
 }
 
 PieceXXXIT = \relative mi' {
@@ -166,7 +167,7 @@ PieceXXXIT = \relative mi' {
   \once \override NoteHead.style = #'baroque
   si\breve*1/2~ |
 
-  \bar "|."
+  \MyFinalBar
 }
 
 PieceXXXIB = \relative mi {
@@ -203,7 +204,7 @@ PieceXXXIB = \relative mi {
   \once \override NoteHead.style = #'baroque
   mi\breve*1/2~ |
   
-  \bar "|."
+  \MyFinalBar
 }
 
 %*****************************************

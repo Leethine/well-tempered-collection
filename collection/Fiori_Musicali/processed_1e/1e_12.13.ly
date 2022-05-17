@@ -49,6 +49,7 @@ MyMeter = \time 3/2
 MyTempo = \tempo "Adantino"
 MyKey = \key do \major
 PieceName = "Kyrie alio modo"
+MyFinalBar = \bar "||"
 
 PieceXIIIS = \relative la' {
   % bar 1 - 5
@@ -67,7 +68,7 @@ PieceXIIIS = \relative la' {
   \once \override NoteHead.style = #'baroque
   fad\breve*1/2
   
-  \bar "|."
+  \MyFinalBar
 }
 
 PieceXIIIA = \relative la' {
@@ -85,7 +86,7 @@ PieceXIIIA = \relative la' {
   mi1 fa2 | mi la sol | fa dod mi~ | mi re dod |
   \once \override NoteHead.style = #'baroque
   re\breve*1/2
-  \bar "|."
+  \MyFinalBar
 }
 
 PieceXIIIT = \relative la {
@@ -103,7 +104,7 @@ PieceXIIIT = \relative la {
   \once \override NoteHead.style = #'baroque
   la\breve*1/2
   
-  \bar "|."
+  \MyFinalBar
 }
 
 PieceXIIIB = \relative la, {
@@ -122,7 +123,7 @@ PieceXIIIB = \relative la, {
   \once \override NoteHead.style = #'baroque
   re\breve*1/2
   
-  \bar "|."
+  \MyFinalBar
 }
 %*****************************************
 %  Start Score
