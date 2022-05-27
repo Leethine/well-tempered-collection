@@ -70,7 +70,7 @@ PieceVS = \relative la' {
 PieceVA = \relative re' {
   % bar 1 - 4
   re1 do2 sol' | fa2 \change Staff=down \stemUp mi re do |
-  \change Staff=up \stemDown re4 re8 mi fa sol la re,~ re do16 si do4 re la8 si |
+  \change Staff=up \stemDown re4 re8 mi fa sol la re,~ re do16 sib dod4 re la8 si |
   do8 re mi dod re do!16 si la8 si do \change Staff=down \stemUp sol la sol fad sol la4 |
   
   % bar 5 - 7

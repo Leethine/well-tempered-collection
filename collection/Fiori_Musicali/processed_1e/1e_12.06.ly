@@ -121,7 +121,7 @@ PieceVIB = \relative re {
   % bar 6 - 10
   mi2. re4 mi do |
   sol' sol, sib do re mi |
-  fa1. | sol,1.\rest | sol1.\rest |
+  fa1 si,2\rest | sol1.\rest | sol1.\rest |
   
   % bar 11 - 15
   si2\rest re fa | mi2. fa4 sol2 |
