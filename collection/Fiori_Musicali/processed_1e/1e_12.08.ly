@@ -90,20 +90,20 @@ PieceVIIIA = \relative la' {
   % bar 1	- 4
   mi2\rest la sib la~ |
   la2 sol la re, |
-  fa!2 sol la si |
+  fa!2 sol la sib |
   la2~ la4 sol2 fa!2 mi4 |
   
   % bar 5 - 8
   re1 mi4\rest la sib2 |
   la2 sol la1 |
   re,2 fa! sol la |
-  si2 la1 sol2 |
+  sib2 la1 sol2 |
   
   % bar 9 - 13
   fa2 mi re1 |
   mi2\rest la sib la~ |
   la2 sol la re, |
-  fa2 sol la si |
+  fa2 sol la sib |
   \once \override NoteHead.style = #'baroque
   la\breve |
   
@@ -125,7 +125,7 @@ PieceVIIIT = \relative re' {
   re1 re1\rest |
   
   % bar 9 - 13
-  do4\rest re do si la fa sib la~ |
+  do4\rest re do sib la fa sib la~ |
   la4 sol2 fad4 sol2 fa! |
   sib1 re4\rest la sib2 |
   la2 sol fad sol~ |
