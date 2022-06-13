@@ -17,9 +17,9 @@
 
 \paper {
   % Set paper
-  #(set-paper-size "b5")
+  #(set-paper-size "a4landscape")
   indent = 0\mm
-  line-width = 15.5\cm
+  line-width = 23.5\cm
   ragged-right = ##f
   line-width = #(- line-width (* mm 3.000000) (* mm 1))
 }
@@ -36,9 +36,9 @@
 %  Set Header
 %*****************************************
 \header {
-  title = "Air en Ré Majeur"
-  subtitle = "Extrait de Suite d'Orchestre No.° 3"
-  composer = "J.S. Bach"
+  title = "Suite d'Orchestre No.° 3"
+  subtitle = "Air"
+  composer = ""
   opus = "BWV 1068"
   tagline = "© 2022 Hautbois Project"
 }
