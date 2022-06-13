@@ -44,7 +44,7 @@
 MyMeter = \time 4/2
 MyTempo = \tempo "Adantino"
 MyKey = \key do \major
-PieceName = "Christe alio Modo"
+PieceName = "Kyrie alio Modo"
 
 PieceVIIIS = \relative re'' {
   % bar 1	- 4
