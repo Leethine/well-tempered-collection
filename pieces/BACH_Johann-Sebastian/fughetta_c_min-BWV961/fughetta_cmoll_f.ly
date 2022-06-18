@@ -73,7 +73,7 @@ VoiceI = \relative sol' {
   %bar 13 - 16
   sol8( la sib do re mib re do sib la! sib do) |
   sib( do re mib fa sol fa mib re do re mib) |
-  re16 fa mib sol fa lab! sol4 sib,8 lab sol lab~ lab fa'sol, |
+  re16 fa mib sol fa lab! sol4 sib,8 lab sol lab lab fa'sol, |
   lab4.\prall \stemUp sol16 sib lab do sib reb 
   \stemNeutral do sib lab sol fa mi fa lab sol sib lab do |
   
