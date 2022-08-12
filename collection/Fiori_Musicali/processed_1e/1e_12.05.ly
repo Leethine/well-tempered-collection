@@ -1,6 +1,6 @@
-%! Title: Kyrie alio Modo 
+%! Title: Christe alio Modo
 %! Part: I
-%! No: 13
+%! No: 5
 %! Remark:
 
 \version "2.22.1"
@@ -24,19 +24,18 @@
   \context {
     \Score
     \override SpacingSpanner.base-shortest-duration = #(ly:make-moment 1/16)
-    \override SpacingSpanner.uniform-stretching = ##t 
+    \override SpacingSpanner.uniform-stretching = ##t
   }
 }
-
 %*****************************************
 %  Set Header
 %*****************************************
 \header {
   %title = "KYRIE"
-  %subtitle = "Kyrie. Alio modo"
+  %subtitle = "Kyrie"
   %subsubtitle = "Fiori Musicali"
   %composer = "G. Frescobaldi"
-  %opus = "F.12/13"
+  %opus = "F.12/03"
   %tagline = "© 2022 Hautbois Project"
   tagline = ""
 }
@@ -45,86 +44,76 @@
 % Start Voice
 % Write the voices here
 %*****************************************
-MyMeter = \time 3/2
+MyMeter = \time 4/2
 MyTempo = \tempo "Adantino"
 MyKey = \key do \major
-PieceName = "Kyrie alio modo"
+PieceName = "Christe alio Modo"
 MyFinalBar = \bar "||"
 
-PieceXIIIS = \relative la' {
-  % bar 1 - 5
-  si2\rest la si | do1 si2 | la1 sol2 |
-  fa2. mi4 fa sol | mi1.~ |
+PieceVS = \relative la' {
+  % bar 1 - 4
+  s1*2 |
+  re4\rest la8 si do re mi do fa mi re do16 re mi8 re do re |
+  sib2 la si2.\rest la4~ |
+  la4 sol2 fa4~ fa mi2 re4~ |
   
-  % bar 6 - 11
-  mi1. | fa1. | si1.\rest | si1.\rest | si2\rest la sol | fa la si |
-  
-  % bar 12 - 16
-  do2. re4 mi2 | la,4 si dod re mi2~ | mi re dod |
-  re do sib | la2. sol4 fa2 |
-  
-  % bar 17 - 21
-  mi mi' re | do1 si2 | la1 sol2 | fa2. sol4 mi2 |
+  % bar 5 - 7
+  re dod re8 mi fa sol mi4 la2 sold4 |
+  la4 do si2 la4. sol8 fa4 mi~ |
+  mi4 re2 dod4
   \once \override NoteHead.style = #'baroque
-  fad\breve*1/2
+  re\breve*1/2 |
   
   \MyFinalBar
 }
 
-PieceXIIIA = \relative la' {
-  % bar 1 - 5
-  do,1.\rest | r2 la' sol | fa mi1~ | mi2 re1 | r2 do re |
+PieceVA = \relative re' {
+  % bar 1 - 4
+  re1 do2 sol' | fa2 \change Staff=down \stemUp mi re do |
+  \change Staff=up \stemDown re4 re8 mi fa sol la re,~ re do16 sib dod4 re la8 si |
+  do8 re mi dod re do!16 si la8 si do \change Staff=down \stemUp sol la sol fad sol la4 |
   
-  % bar 6 - 11
-  mi re do | r do1 | re1. | mi1 fa2 | mi1. | re1. |
-  
-  % bar 12 - 16
-  r2 la' sol | fa la dod, | fa1 mi2 |
-  fa la sol | fa dod re |
-  
-  % bar 17 - 21
-  mi1 fa2 | mi la sol | fa dod mi~ | mi re dod |
+  % bar 5 - 7
+  sol2 fa! la2\rest la4\rest s4 |
+  \change Staff=up \stemDown si4\rest mi2 re4~ re do2 si4 |
+  la4. sold8 la2
   \once \override NoteHead.style = #'baroque
-  re\breve*1/2
-  \MyFinalBar
-}
-
-PieceXIIIT = \relative la {
-  % bar 1 - 5
-  la1.~ | la1.~ | la1.~ | la1.~ | la1.~ |
-  
-  % bar 6 - 11
-  la1.~ | la1.~ | la1.~ | la1.~ | la1.~ | la1.~ | 
-  
-  % bar 12 - 16
-  la1.~ | la1.~ | la1.~ | la1.~ | la1.~ | 
-  
-  % bar 17 - 21
-  la1.~ | la1.~ | la1.~ | la1.~ |
-  \once \override NoteHead.style = #'baroque
-  la\breve*1/2
+  la\breve*1/2 |
   
   \MyFinalBar
 }
 
-PieceXIIIB = \relative la, {
-  % bar 1 - 5
-  sol1.\rest | sol1.\rest | sol1.\rest | sol1.\rest | r2 la si |
+PieceVT = \relative re {
+  % bar 1 - 4
+  re2\rest re8 mi fa sol la mi la sol16 fa mi8 fa sol mi |
+  la2 \change Staff=up mi'2\rest do1\rest \change Staff=down | re2\rest la2 sol fa |
+  mi2 re do \once \stemDown re |
   
-  % bar 6 - 11
-  do si la | re la' sol | fa mi re |
-  dod la re~ | re dod1 | re1. | 
-  
-  % bar 12 - 16
-  sol,1.\rest | sol1.\rest | sol1.\rest | re'1 mi2 | fa2 mi re | 
-  
-  % bar 17 - 21
-  dod1 re2 | la1.~ | la1.~ | la1. | 
+  % bar 5 - 7
+  \change Staff=up \stemDown fa2.\rest la8 si do re mi do re4 \change Staff=down \stemUp re,8 mi|
+  fa8 mi la4 fa4\rest re8 mi fa sol la mi la4 sol |
+  fa4. mi16 re mi2
   \once \override NoteHead.style = #'baroque
-  re\breve*1/2
+  fad\breve*1/2 |
   
   \MyFinalBar
 }
+
+PieceVB = \relative fa {
+  % bar 1 - 4
+  s1*2 | si,4\rest fa'8 sol la si do4~ do sib2 la4 |
+  sol8 sol, sib do re mi fa4 mi2 re | r1*2 |
+  
+  % bar 5 - 7
+  mi2 re do si |
+  la2 sol la1~ |
+  la1
+  \once \override NoteHead.style = #'baroque
+  re\breve*1/2 |
+  
+  \MyFinalBar
+}
+
 %*****************************************
 %  Start Score
 %*****************************************
@@ -135,15 +124,15 @@ PieceXIIIB = \relative la, {
     piece = \PieceName
   }
   \new PianoStaff <<
-    \new Staff = "up" {
+    \new Staff = "up" { 
       \clef "treble" 
       %\MyTempo
       \MyKey
       \MyMeter
       <<
-        \PieceXIIIS
+        \PieceVS
         \\
-        \PieceXIIIA
+        \PieceVA
       >>
     }
     \new Staff = "down" {
@@ -152,9 +141,9 @@ PieceXIIIB = \relative la, {
       \MyKey
       \MyMeter
       <<
-        \PieceXIIIT
+        \PieceVT
         \\
-        \PieceXIIIB
+        \PieceVB
       >>
     }
   >>
